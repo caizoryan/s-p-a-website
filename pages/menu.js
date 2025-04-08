@@ -1,6 +1,7 @@
 import { menu_items } from "../script.js";
 import { page, cur_page } from "../router.js";
-import { html, mem } from "../solid_monke/solid_monke.js";
+import { each, mem } from "../tapri/monke.js";
+import { hdom } from "../tapri/hdom/index.js";
 
 /* ===============================
    Menu
@@ -8,16 +9,20 @@ import { html, mem } from "../solid_monke/solid_monke.js";
 export const Menu = () => {
   let pages = () => menu_items.map((e) => e.text);
 
-  return html`
-      .alt-menu
-        .alt-menu__button-container 
-          each of ${pages} as ${MenuButton}
+  return [
+    ".alt-menu",
+    [
+      ".alt-menu__button-container",
+      () => each(pages, (t) => hdom(MenuButton(t)))
+    ],
+    [
+      ".sub-header",
+      [".sub-header__label", "Salankar Pashine & Associates"],
+      [".sub-header__empty-black"]
 
-        .sub-header
-          .sub-header__label -- Salankar Pashine & Associates
-          .sub-header__empty-black
-        .black`
-
+    ],
+    [".black"]
+  ]
 };
 
 /* ===============================
@@ -25,8 +30,10 @@ export const Menu = () => {
    =============================== */
 const MenuButton = (text) => {
   let click = () => page("/" + text.toLowerCase());
-  let is_selected = mem(() => cur_page() == text);
+  let is_selected = mem(() => {
+    console.log("is", cur_page())
+    return cur_page() == text
+  });
 
-  return html`
-    div [onclick=${click} current = ${is_selected}] -- ${text}`;
+  return ["div", { onclick: click, current: is_selected }, text]
 };

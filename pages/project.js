@@ -1,9 +1,10 @@
-import { html as h, mounted } from "../solid_monke/solid_monke.js";
+import { mem, each, mounted } from "../tapri/monke.js";
 import { fade_in } from "../utils/transitions.js";
 import { easter_egg_click } from "../utils/colorschemes.js";
 import { filter_map, filtered_projects, filter_grouped, projects } from "./project/data.js";
 import { description_text } from "./project/description.js";
 import { refresh, disable_all, clean_project, show_filters } from "./project/utils.js";
+import { hdom } from "../tapri/hdom/index.js";
 export { filter_map, filtered_projects }
 
 /* ===============================
@@ -13,62 +14,59 @@ export { filter_map, filtered_projects }
 const FilterButton = (f) => {
   const toggle = () => { disable_all(f.type); f.enabled = !f.enabled; refresh(); };
 
-  return h`
-    button.filter-button [
-      onclick = ${toggle}
-      active = ${() => f.enabled} ] -- ${f.name}`;
+  return hdom(
+    ["button.filter-button", {
+      onclick: toggle,
+      active: () => f.enabled
+    }, f.name]
+  )
 };
 
 const FilterBox = () => {
-
   const show = show_filters();
-  const classes = () => "filter-box " + (show() ? "show" : "hide");
+  const classes = mem(() => "filter-box " + (show() ? "show" : "hide"));
 
-  const Category = ([category, filter]) => h`
-    div
-      p -- ${category}
-      each of ${filter} as ${FilterButton}`
+  const Category = ([category, filter]) => hdom([
+    "div",
+    ["p", category],
+    () => each(filter, FilterButton)
+  ])
 
-
-  return h`
-    button.filter-box-toggle [ onclick = ${show.toggle} ] -- filters
-
-    div [ class=${classes} ]
-      button.close [ onclick=${show.toggle} ] -- x
-
-      #each 
-        of -- ${filter_grouped} 
-        as -- ${Category}`;
+  return hdom(
+    [".filters",
+      ["button.filter-box-toggle", { onclick: show.toggle }, "filters"],
+      ["div", { class: classes },
+        ["button.close", { onclick: show.toggle }, "x"],
+        () => each(filter_grouped, Category)
+      ]
+    ])
 };
 
 const Project = ({ image, title, type, sub_type }) => {
   let easteregg = easter_egg_click(title);
-  return h`
-  .project [onclick=${easteregg}]
-
-    .project__img 
-      img [ src = ${image} ]
-
-    .project__metadata
-      .project__title -- ${title}
-      .project__type -- [ ${type.join(" & ")} ]
-      .project__sub-type -- [ ${sub_type.join(", ")} ]`
+  return hdom([
+    ".project", { onclick: easteregg },
+    [".project__img", ["img", { src: image }]],
+    [
+      ".project__metadata",
+      [".project__title", title],
+      [".project__type", `[ ${type.join(" & ")} ]`],
+      [".project__sub-type", `[ ${sub_type.join(", ")} ]`]
+    ]
+  ])
 };
 
 
 export const Projects = (p) => {
   mounted(() => fade_in(".projects"));
-  projects.set(p.map(clean_project));
+  projects(p.map(clean_project));
 
-  return h`
-    .filters -- ${FilterBox}
-
-    .projects__showing
-      .empty-div 
-      .projects__showing-text -- ${description_text}
-
-    .projects
-      each of ${filtered_projects} as ${Project}`;
+  return hdom([
+    "div",
+    FilterBox,
+    [".projects__showing", [".empty-div"], [".projects__showing-text", description_text]],
+    [".projects", () => each(filtered_projects, Project)]
+  ]);
 };
 
 

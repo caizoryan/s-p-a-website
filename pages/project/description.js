@@ -1,5 +1,5 @@
 import { filter_map, filtered_projects } from "../project.js";
-import { mem } from "../../solid_monke/solid_monke.js";
+import { mem } from "../../tapri/monke.js";
 
 let filtered_count = mem(() => filtered_projects().length);
 

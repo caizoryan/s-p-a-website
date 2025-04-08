@@ -1,4 +1,4 @@
-import { sig, eff } from "../solid_monke/solid_monke.js";
+import { sig, eff } from "../tapri/monke.js";
 
 const easteregg = (t = 3000, rate = 0.05, cutoff = 800) => {
   colorschemes = colorschemes.concat(extensions);

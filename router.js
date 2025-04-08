@@ -1,4 +1,4 @@
-import { sig } from "./solid_monke/solid_monke.js";
+import { sig } from "./tapri/monke.js";
 import page from "./scripts/page.js";
 import { q } from "./utils/qs.js";
 import { filter_map } from "./pages/project.js";
@@ -47,7 +47,7 @@ const loadfilters = (ctx, next) => {
 };
 
 const set_page = (p) => {
-  cur_page.set(p);
+  cur_page(p);
   document.title = `[${p}] — Salankar Pashine & Associates`;
 };
 

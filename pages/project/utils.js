@@ -1,6 +1,6 @@
 import { filters, filter_map } from "./data.js";
 import { q } from "../../utils/qs.js";
-import { sig } from "../../solid_monke/solid_monke.js";
+import { sig } from "../../tapri/monke.js";
 import { page } from "../../router.js";
 
 export let refresh = () => {
@@ -20,7 +20,7 @@ export const show_filters = () => {
   const parseBool = (s) => s === "true";
   const show = sig(parseBool(s));
 
-  const toggle = () => { show.set(!show()); localStorage.setItem("show_filters", show()); };
+  const toggle = () => { show(!show()); localStorage.setItem("show_filters", show()); };
   show.toggle = toggle;
 
   return show

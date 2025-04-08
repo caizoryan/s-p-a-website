@@ -1,7 +1,7 @@
 import {
   render,
   mem,
-} from "./solid_monke/solid_monke.js";
+} from "./tapri/monke.js";
 import { page_init, cur_page } from "./router.js";
 import { data } from "./data/data.js";
 import { Projects } from "./pages/project.js";
@@ -9,7 +9,7 @@ import { About } from "./pages/about.js";
 import { Press } from "./pages/press.js";
 import { Menu } from "./pages/menu.js";
 import { Home } from "./pages/home.js";
-import { html as h } from "./solid_monke/solid_monke.js";
+import { hdom } from "./tapri/hdom/index.js";
 
 page_init();
 
@@ -24,6 +24,7 @@ export let menu_items = [
 let CurrentPage = () => mem(() => {
   // check if from menu items page has a renderer based on cur page
   let page = menu_items.find((e) => e.text == cur_page());
+  console.log(page)
   return page.render;
 });
 
@@ -38,10 +39,11 @@ let extra = mem(() =>
     : ""
 );
 
-const Mother = () => h`
-  .mother [style=${() => extra()}]
-    ${() => Menu}
-    ${() => CurrentPage}
-`;
+const Mother = () => hdom([
+  ".mother",
+  { style: extra },
+  hdom(Menu()),
+  CurrentPage()
+])
 render(Mother, document.body);
 //
