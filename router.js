@@ -15,6 +15,7 @@ const init = () => {
     if (ctx.query.easteregg) {
       let e = ctx.query.easteregg;
       if (Array.isArray(e)) easteregg(...e);
+
       if (typeof parseFloat(e) == "number") easteregg(parseFloat(e));
       else easteregg();
     }
@@ -33,6 +34,7 @@ const disablefilters = (ctx, next) => {
   filter_map.data.forEach((r) => (r.enabled = false));
   next();
 }
+
 const loadfilters = (ctx, next) => {
   let f = ctx.query.f;
   if (f) {

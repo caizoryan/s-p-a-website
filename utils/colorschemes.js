@@ -1,6 +1,7 @@
 import { sig, eff } from "../tapri/monke.js";
 
 const easteregg = (t = 3000, rate = 0.05, cutoff = 800) => {
+  console.log("easteregg")
   colorschemes = colorschemes.concat(extensions);
   new_timeout(t, rate, cutoff);
 };
@@ -49,7 +50,7 @@ eff(() =>
 
 export function change_colors() {
   const random_item = (arr) => arr[Math.floor(Math.random() * arr.length)];
-  colors.set(random_item(colorschemes));
+  colors(random_item(colorschemes));
 }
 
 export { colorschemes, easteregg, easter_egg_click };
