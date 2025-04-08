@@ -1,16 +1,13 @@
-let architecture = (arr) =>
-  [...arr].filter((p) => p.type.includes("architecture"));
-let interior = (arr) => [...arr].filter((p) => p.type.includes("interior"));
-
-let hospital = (arr) => [...arr].filter((p) => p.sub_type.includes("hospital"));
-let hospitality = (arr) =>
-  [...arr].filter((p) => p.sub_type.includes("hospitality"));
-let residential = (arr) =>
-  [...arr].filter((p) => p.sub_type.includes("residential"));
-let commercial = (arr) =>
-  [...arr].filter((p) => p.sub_type.includes("commercial"));
-let office = (arr) =>
-  [...arr].filter((p) => p.sub_type.includes("office"));
+const filter = (arr, fn) => [...arr].filter(fn)
+const type = (tag) => (p) => p.type.includes(tag)
+const sub_type = (tag) => (p) => p.sub_type.includes(tag)
+const architecture = (arr) => filter(arr, type("architecture"))
+const interior = (arr) => filter(arr, type("interior"));
+const hospital = (arr) => filter(arr, sub_type("hospital"));
+const hospitality = (arr) => filter(arr, sub_type("hospitality"));
+const residential = (arr) => filter(arr, sub_type("residential"));
+const commercial = (arr) => filter(arr, sub_type("commercial"));
+const office = (arr) => filter(arr, sub_type("office"));
 
 export let filter_map_data = [
   {
@@ -19,9 +16,20 @@ export let filter_map_data = [
     type: "type",
     enabled: false,
   },
-  { name: "interior", filter: interior, type: "type", enabled: false },
 
-  { name: "hospital", filter: hospital, type: "sub_type", enabled: false },
+  {
+    name: "interior",
+    filter: interior,
+    type: "type",
+    enabled: false
+  },
+
+  {
+    name: "hospital",
+    filter: hospital,
+    type: "sub_type",
+    enabled: false
+  },
 
   {
     name: "hospitality",
