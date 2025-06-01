@@ -11,6 +11,9 @@ export { filter_map, filtered_projects }
    Project
    =============================== */
 const selected = sig(false)
+const delay = (fn, ms = 500) => setTimeout(fn, ms)
+let showing = sig("false")
+eff_on(showing, () => showing() == "false" ? delay(() => selected(false)) : null)
 
 const FilterButton = (f) => {
   const toggle = () => { disable_all(f.type); f.enabled = !f.enabled; refresh(); };
@@ -47,7 +50,10 @@ const Project = ({ image, title, type, sub_type, images }) => {
 
 	let click = () => {
 		console.log("actualy clicked")
+
 		selected({image, title, type, sub_type, images})
+		showing("true")
+
 		easter_egg_click(title)
 	}
 
@@ -66,8 +72,8 @@ const Project = ({ image, title, type, sub_type, images }) => {
 const ProjectPage = () => {
 	let title = mem(() => selected().title)
 	let images = mem(() => selected().images)
-	return hdom(["div.scroll.full.funky",
-							 ["button.close", { onclick: () => selected(false) }, "x"],
+	return hdom(["div.full",
+							 ["button.close", { onclick: () => showing("false") }, "x"],
 							  [".project__title", title],
 							 [".project-page__img-container",
 								() => each(images, (src) => 
@@ -81,7 +87,6 @@ const ProjectPage = () => {
 export const Projects = (p) => {
   mounted(() => fade_in(".projects"));
   projects(p.map(clean_project));
-	let showing = mem(() => selected() != false ? "true" : "false")
 
   return hdom([
     "div", FilterBox,
@@ -89,7 +94,7 @@ export const Projects = (p) => {
 		[".empty-div"],
 		[".projects__showing-text", description_text]],
     [".projects", () => each(filtered_projects, Project)],
-    [".project-page", {activated: showing},ProjectPage],
+    [".project-page", {activated: showing}, ProjectPage],
   ]);
 };
 
