@@ -13,6 +13,9 @@ export { filter_map, filtered_projects }
 const selected = sig(false)
 const delay = (fn, ms = 500) => setTimeout(fn, ms)
 let showing = sig("false")
+
+// TODO: This mechanism is ghich pich, create an abstraction for it later
+// and maybe I'll find a nice way of generalizable way of doing this...
 eff_on(showing, () => showing() == "false" ? delay(() => selected(false)) : null)
 
 const FilterButton = (f) => {
@@ -49,11 +52,8 @@ const FilterBox = () => {
 const Project = ({ image, title, type, sub_type, images }) => {
 
 	let click = () => {
-		console.log("actualy clicked")
-
 		selected({image, title, type, sub_type, images})
 		showing("true")
-
 		easter_egg_click(title)
 	}
 
