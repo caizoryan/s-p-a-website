@@ -33,6 +33,8 @@ export const clean_project = (p) => {
   let _p = { ...p };
   _p.title = _p.title.split("—")[1];
   _p.image = _p.images.map(large)[0];
+  _p.images = _p.images
+  _p.id = _p.id
   _p.sub_type = _p.sub_type.map((s) => s.toLowerCase());
   _p.type = _p.type.map((s) => s.toLowerCase());
   return _p;

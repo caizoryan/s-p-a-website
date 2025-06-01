@@ -1,4 +1,4 @@
-import { mem, each, mounted } from "../tapri/monke.js";
+import { mem, each, mounted, sig, eff_on } from "../tapri/monke.js";
 import { fade_in } from "../utils/transitions.js";
 import { easter_egg_click } from "../utils/colorschemes.js";
 import { filter_map, filtered_projects, filter_grouped, projects } from "./project/data.js";
@@ -10,6 +10,7 @@ export { filter_map, filtered_projects }
 /* ===============================
    Project
    =============================== */
+const selected = sig(false)
 
 const FilterButton = (f) => {
   const toggle = () => { disable_all(f.type); f.enabled = !f.enabled; refresh(); };
@@ -42,10 +43,16 @@ const FilterBox = () => {
     ])
 };
 
-const Project = ({ image, title, type, sub_type }) => {
-  let easteregg = easter_egg_click(title);
+const Project = ({ image, title, type, sub_type, images }) => {
+
+	let click = () => {
+		console.log("actualy clicked")
+		selected({image, title, type, sub_type, images})
+		easter_egg_click(title)
+	}
+
   return hdom([
-    ".project", { onclick: easteregg },
+    ".project", { onclick: click },
     [".project__img", ["img", { src: image }]],
     [
       ".project__metadata",
@@ -56,16 +63,33 @@ const Project = ({ image, title, type, sub_type }) => {
   ])
 };
 
+const ProjectPage = () => {
+	let title = mem(() => selected().title)
+	let images = mem(() => selected().images)
+	return hdom(["div.scroll.full.funky",
+							 ["button.close", { onclick: () => selected(false) }, "x"],
+							  [".project__title", title],
+							 [".project-page__img-container",
+								() => each(images, (src) => 
+									hdom(
+										["img.project-page__img",
+										 {src: src.image.display.url}])
+							 )]
+							])
+}  
 
 export const Projects = (p) => {
   mounted(() => fade_in(".projects"));
   projects(p.map(clean_project));
+	let showing = mem(() => selected() != false ? "true" : "false")
 
   return hdom([
-    "div",
-    FilterBox,
-    [".projects__showing", [".empty-div"], [".projects__showing-text", description_text]],
-    [".projects", () => each(filtered_projects, Project)]
+    "div", FilterBox,
+    [".projects__showing",
+		[".empty-div"],
+		[".projects__showing-text", description_text]],
+    [".projects", () => each(filtered_projects, Project)],
+    [".project-page", {activated: showing},ProjectPage],
   ]);
 };
 

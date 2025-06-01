@@ -46,4 +46,3 @@ const Mother = () => hdom([
   CurrentPage()
 ])
 render(Mother, document.body);
-//
