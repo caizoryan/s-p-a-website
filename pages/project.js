@@ -8,8 +8,13 @@ import { hdom } from "../tapri/hdom/index.js";
 export { filter_map, filtered_projects }
 
 /* ===============================
-   Project
-   =============================== */
+   ____            _           _   
+  |  _ \ _ __ ___ (_) ___  ___| |_ 
+  | |_) | '__/ _ \| |/ _ \/ __| __|
+  |  __/| | | (_) | |  __/ (__| |_ 
+  |_|   |_|  \___// |\___|\___|\__|
+                |__/               
+	 =============================== */
 const selected = sig(false)
 const delay = (fn, ms = 500) => setTimeout(fn, ms)
 let showing = sig("false")
@@ -19,83 +24,83 @@ let showing = sig("false")
 eff_on(showing, () => showing() == "false" ? delay(() => selected(false)) : null)
 
 const FilterButton = (f) => {
-  const toggle = () => { disable_all(f.type); f.enabled = !f.enabled; refresh(); };
+	const toggle = () => { disable_all(f.type); f.enabled = !f.enabled; refresh(); };
 
-  return hdom(
-    ["button.filter-button", {
-      onclick: toggle,
-      active: () => f.enabled
-    }, f.name]
-  )
+	return hdom(
+		["button.filter-button", {
+			onclick: toggle,
+			active: () => f.enabled
+		}, f.name]
+	)
 };
 
 const FilterBox = () => {
-  const show = show_filters();
-  const classes = mem(() => "filter-box " + (show() ? "show" : "hide"));
+	const show = show_filters();
+	const classes = mem(() => "filter-box " + (show() ? "show" : "hide"));
 
-  const Category = ([category, filter]) => hdom([
-    "div",
-    ["p", category],
-    () => each(filter, FilterButton)
-  ])
+	const Category = ([category, filter]) => hdom([
+		"div",
+		["p", category],
+		() => each(filter, FilterButton)
+	])
 
-  return hdom(
-    [".filters",
-      ["button.filter-box-toggle", { onclick: show.toggle }, "filters"],
-      ["div", { class: classes },
-        ["button.close", { onclick: show.toggle }, "x"],
-        () => each(filter_grouped, Category)
-      ]
-    ])
+	return hdom(
+		[".filters",
+			["button.filter-box-toggle", { onclick: show.toggle }, "filters"],
+			["div", { class: classes },
+				["button.close", { onclick: show.toggle }, "x"],
+				() => each(filter_grouped, Category)
+			]
+		])
 };
 
 const Project = ({ image, title, type, sub_type, images }) => {
 
 	let click = () => {
-		selected({image, title, type, sub_type, images})
+		selected({ image, title, type, sub_type, images })
 		showing("true")
 		easter_egg_click(title)
 	}
 
-  return hdom([
-    ".project", { onclick: click },
-    [".project__img", ["img", { src: image }]],
-    [
-      ".project__metadata",
-      [".project__title", title],
-      [".project__type", `[ ${type.join(" & ")} ]`],
-      [".project__sub-type", `[ ${sub_type.join(", ")} ]`]
-    ]
-  ])
+	return hdom([
+		".project", { onclick: click },
+		[".project__img", ["img", { src: image }]],
+		[
+			".project__metadata",
+			[".project__title", title],
+			[".project__type", `[ ${type.join(" & ")} ]`],
+			[".project__sub-type", `[ ${sub_type.join(", ")} ]`]
+		]
+	])
 };
 
 const ProjectPage = () => {
 	let title = mem(() => selected().title)
 	let images = mem(() => selected().images)
 	return hdom(["div.full",
-							 ["button.close", { onclick: () => showing("false") }, "x"],
-							  [".project__title", title],
-							 [".project-page__img-container",
-								() => each(images, (src) => 
-									hdom(
-										["img.project-page__img",
-										 {src: src.image.display.url}])
-							 )]
-							])
-}  
+		["button.close", { onclick: () => showing("false") }, "x"],
+		[".project__title", title],
+		[".project-page__img-container",
+			() => each(images, (src) =>
+				hdom(
+					["img.project-page__img",
+						{ src: src.image.display.url }])
+			)]
+	])
+}
 
 export const Projects = (p) => {
-  mounted(() => fade_in(".projects"));
-  projects(p.map(clean_project));
+	mounted(() => fade_in(".projects"));
+	projects(p.map(clean_project));
 
-  return hdom([
-    "div", FilterBox,
-    [".projects__showing",
-		[".empty-div"],
-		[".projects__showing-text", description_text]],
-    [".projects", () => each(filtered_projects, Project)],
-    [".project-page", {activated: showing}, ProjectPage],
-  ]);
+	return hdom([
+		"div", FilterBox,
+		[".projects__showing",
+			[".empty-div"],
+			[".projects__showing-text", description_text]],
+		[".projects", () => each(filtered_projects, Project)],
+		[".project-page", { activated: showing }, ProjectPage],
+	]);
 };
 
 

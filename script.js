@@ -39,10 +39,31 @@ let extra = mem(() =>
     : ""
 );
 
+let contacts = [
+  "0712 224 0000",
+  "archspangp@gmail.com",
+];
+let communications = [
+  { href: "https://www.facebook.com/anuragpallavi", name: "Facebook" },
+  {
+    href: "https://https://www.instagram.com/salankarpashine_designs",
+    name: "Instagram"
+  },
+];
+
+let footer = () => {
+	return [".footer",
+					[".footer-section", ...contacts.map((c) => ["p", c])],
+					[".footer-section", ...communications.map((c) => ["a", {href: c.href},["p", c.name]])]
+				 ]
+}
+
 const Mother = () => hdom([
   ".mother",
   { style: extra },
   hdom(Menu()),
-  CurrentPage()
+  CurrentPage(),
+	hdom(footer())
 ])
+
 render(Mother, document.body);

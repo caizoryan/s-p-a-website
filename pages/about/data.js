@@ -1,10 +1,5 @@
 let data = {};
 data.services = ["Architecture", "Interior Design", "Project Management"];
-data.contact = [
-  "Address: 1st Floor, Pashine House, 1st Lane, Pratap Nagar, Nagpur, Maharashtra 440022",
-  "Phone: 0712 224 0000",
-  "Email: archspangp@gmail.com",
-];
 data.clients = [
   "VIPL",
   "Byjus",
@@ -12,6 +7,12 @@ data.clients = [
   "UltraTech",
   "Perficient",
   "Seller Drive"
+];
+
+data.contact = [
+  "Address: 1st Floor, Pashine House, 1st Lane, Pratap Nagar, Nagpur, Maharashtra 440022",
+  "Phone: 0712 224 0000",
+  "Email: archspangp@gmail.com",
 ];
 data.communications = [
   { href: "https://www.facebook.com/anuragpallavi", name: "Facebook" },
