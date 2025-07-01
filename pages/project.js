@@ -8,16 +8,20 @@ import { hdom } from "../tapri/hdom/index.js";
 export { filter_map, filtered_projects }
 
 /* ===============================
-   ____            _           _   
-  |  _ \ _ __ ___ (_) ___  ___| |_ 
-  | |_) | '__/ _ \| |/ _ \/ __| __|
-  |  __/| | | (_) | |  __/ (__| |_ 
-  |_|   |_|  \___// |\___|\___|\__|
-                |__/               
+	 ____            _           _   
+	|  _ \ _ __ ___ (_) ___  ___| |_ 
+	| |_) | '__/ _ \| |/ _ \/ __| __|
+	|  __/| | | (_) | |  __/ (__| |_ 
+	|_|   |_|  \___// |\___|\___|\__|
+								|__/               
 	 =============================== */
 const selected = sig(false)
+const selectedimage = sig(false)
+
 const delay = (fn, ms = 500) => setTimeout(fn, ms)
+
 let showing = sig("false")
+let imagefull = sig("false")
 
 // TODO: This mechanism is ghich pich, create an abstraction for it later
 // and maybe I'll find a nice way of generalizable way of doing this...
@@ -74,18 +78,33 @@ const Project = ({ image, title, type, sub_type, images }) => {
 	])
 };
 
+const ImageFull = () => {
+	return hdom(["div.full.centered",
+		["button.close", { onclick: () => imagefull("false") }, "x"],
+		["img.image-full", {src: selectedimage}]
+	])
+}
+
 const ProjectPage = () => {
 	let title = mem(() => selected().title)
 	let images = mem(() => selected().images)
+	let showfullimage = (url) => () => {
+		console.log("clicked")
+		selectedimage(url)
+		// TODO: rename this
+		imagefull("true")
+	}
+
 	return hdom(["div.full",
 		["button.close", { onclick: () => showing("false") }, "x"],
 		[".project__title", title],
 		[".project-page__img-container",
 			() => each(images, (src) =>
-				hdom(
-					["img.project-page__img",
-						{ src: src.image.display.url }])
-			)]
+				hdom(["img.project-page__img",
+							{ src: src.image.display.url, onclick: showfullimage(src.image.display.url)}
+						 ]))],
+
+		[".project-page", { activated: imagefull }, ImageFull],
 	])
 }
 

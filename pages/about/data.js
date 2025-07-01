@@ -10,7 +10,7 @@ data.clients = [
 ];
 
 data.contact = [
-  "Address: 1st Floor, Pashine House, 1st Lane, Pratap Nagar, Nagpur, Maharashtra 440022",
+  //"Address: 1st Floor, Pashine House, 1st Lane, Pratap Nagar, Nagpur, Maharashtra 440022",
   "Phone: 0712 224 0000",
   "Email: archspangp@gmail.com",
 ];
