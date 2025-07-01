@@ -42,6 +42,8 @@ let contacts = [
   "0712 224 0000",
   "archspangp@gmail.com",
 ];
+
+
 let communications = [
   { href: "https://www.facebook.com/anuragpallavi", name: "Facebook" },
   {
