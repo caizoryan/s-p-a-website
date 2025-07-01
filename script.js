@@ -1,7 +1,4 @@
-import {
-  render,
-  mem,
-} from "./tapri/monke.js";
+import {render, mem} from "./tapri/monke.js";
 import { page_init, cur_page } from "./router.js";
 import { data } from "./data/data.js";
 import { Projects } from "./pages/project.js";
@@ -40,6 +37,8 @@ let extra = mem(() =>
 );
 
 let contacts = [
+	"01, RPTS Rd, Laxminagar,",
+	"Nagpur, Maharashtra 440022",
   "0712 224 0000",
   "archspangp@gmail.com",
 ];
@@ -53,7 +52,7 @@ let communications = [
 
 let footer = () => {
 	return [".footer",
-					[".footer-section", ...contacts.map((c) => ["p", c])],
+					[".footer-section", ...contacts.map((c) => ["p.whatever", c])],
 					[".footer-section", ...communications.map((c) => ["a", {href: c.href},["p", c.name]])]
 				 ]
 }
