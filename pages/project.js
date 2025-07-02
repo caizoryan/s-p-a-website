@@ -85,23 +85,48 @@ const ImageFull = () => {
 	])
 }
 
+let keylisteners = []
+document.addEventListener("keydown", (e) => {
+	keylisteners.forEach((fn) => fn(e))
+})
+
 const ProjectPage = () => {
 	let title = mem(() => selected().title)
 	let images = mem(() => selected().images)
-	let showfullimage = (url) => () => {
-		console.log("clicked")
-		selectedimage(url)
+	let index = sig(0)
+	let active = false
+	eff_on(imagefull, () => {if (showfullimage() == "false") active = false})
+
+	let showfullimage = (i) => () => {
+		active=true;
+		index(i)
 		// TODO: rename this
 		imagefull("true")
 	}
 
+	eff_on(index, () => {
+		if (!images()) return
+		selectedimage(images()[index()].image.display.url)
+	})
+
+	keylisteners.push((e) => {
+		if (active && e.key == "ArrowLeft") {
+			index() == 0 ? index(images().length - 1) : index(index() - 1)
+		}
+
+		if (active && e.key == "ArrowRight"){
+			index() == images().length - 1 ? index(0) : index(index() + 1)
+		}
+	})
+
 	return hdom(["div.full",
 		["button.close", { onclick: () => showing("false") }, "x"],
-		[".project__title", title],
 		[".project-page__img-container",
-			() => each(images, (src) =>
+			[".project__title", title],
+			[".empty", ""],
+			() => each(images, (src, i) =>
 				hdom(["img.project-page__img",
-							{ src: src.image.display.url, onclick: showfullimage(src.image.display.url)}
+							{ src: src.image.display.url, onclick: showfullimage(i)}
 						 ]))],
 
 		[".project-page", { activated: imagefull }, ImageFull],

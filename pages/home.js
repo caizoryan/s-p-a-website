@@ -4,9 +4,10 @@ import { data } from "../data/data.js";
 import { page } from "../router.js";
 import { fade_in } from "../utils/transitions.js";
 
-const found = data.projects.find((e) => e.title.toLowerCase().includes("mukewar"))
 window.addEventListener("resize", () => width(window.innerWidth))
 const width = sig(window.innerWidth);
+
+const found = data.projects.find((e) => e.title.toLowerCase().includes("mukewar"))
 const index = mem(() => width() > 800 ? 0 : 1);
 const img = mem(() => found.images[index()].image.original.url)
 
@@ -37,13 +38,24 @@ const Category = ({ name, link }) => {
 export const Home = () => {
   mounted(() => {
     fade_in(".home__work", 1000)
-    fade_in(".home__landing", 600)
-    fade_in(".home__shadow", 800)
+    fade_in(".home__landing", 1600)
+    fade_in(".home__shadow", 1800)
   });
+
+	// translates...
+	let images = mem(() => [img, img])
+	let offset = sig(0)
+
+	// setInterval(() => {
+	// 	if(offset() == 0) offset(-100)
+	// 	else offset(0)
+	// }, 4000)
 
   return hdom([".home",
     [".home__landing",
-      ["img", { src: img }],
+		 [".home__slider", {style: mem(() =>`transform: translateX(${offset()}vw)`)},
+			 ...images().map((img, i) => ["img", {src: img }],)
+			],
       [".home__shadow"]],
     [".home__work",
       [".home__subtitle", "Featured Projects"],
