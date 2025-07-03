@@ -120,6 +120,7 @@ const ProjectPage = () => {
 		}
 
 		if (active && e.key == "ArrowRight"){
+			if (!images()) index(0)
 			index() == images().length - 1 ? index(0) : index(index() + 1)
 		}
 	})
