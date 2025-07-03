@@ -29,8 +29,9 @@ eff_on(showing, () => showing() == "false" ? delay(() => selected(false)) : null
 
 const FilterButton = (f) => {
 	const toggle = () => {
+		let was = f.enabled
 		disable_all(f.type);
-		f.enabled = !f.enabled;
+		f.enabled = !was;
 		refresh();
 	};
 
