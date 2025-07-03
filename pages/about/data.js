@@ -28,7 +28,7 @@ data.anurag = `Ar. Anurag is dedicated to mastering the design process replete w
 
 Decorated with the ‘Best Residential Building Award' in the Vidarbha region for their project A-Square at Abhyankar Nagar’. Published in magazines such as Daily Guardian, Architecture+Design, Society Interiors, Love That Design, Commercial Design and more. The features on this dynamic and colourful workspace, highlighted the nuances of the design excellence this space exhibits.`
 
-data.pallavi = `With over 25 years of experience, Pallavi has led her practice in delivering award-winning projects across India, earning recognition for her unique design sensibility and creative approach. Her work has been honored with accolades like the Ultratech Best Building Design award in Nagpur.
+data.pallavi = `Ar. Pallavi has led her practice in delivering award-winning projects across India, earning recognition for her unique design sensibility and creative approach. Her work has been honored with accolades like the Ultratech Best Building Design award in Nagpur.
 
 A respected voice in the design community, she has served as a jury member and speaker at FOAID, a panelist for IIID Nagpur, and a guest at leading design schools. Her engagement also extends to community platforms such as the Rotary Club and BNI Nagpur.
 
