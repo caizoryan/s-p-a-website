@@ -21,7 +21,6 @@ export let menu_items = [
 let CurrentPage = () => mem(() => {
   // check if from menu items page has a renderer based on cur page
   let page = menu_items.find((e) => e.text == cur_page());
-  console.log(page)
   return page.render;
 });
 

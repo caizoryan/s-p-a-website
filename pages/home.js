@@ -36,11 +36,27 @@ const Category = ({ name, link }) => {
 }
 
 export const Home = () => {
+	let main_image = new Image()
+	main_image.src = img()
+
   mounted(() => {
-    fade_in(".home__work", 1000)
-    fade_in(".home__landing", 1600)
-    fade_in(".home__shadow", 1800)
-  });
+			fade_in(".home__work", 1000)
+			fade_in(".home__landing", 1600)
+			fade_in(".home__shadow", 1800)
+
+			document.querySelectorAll("img").forEach(function (img) {
+					if (img.complete) {return;}
+					img.style.visibility = "hidden";        
+					let loader = document.createElement("div");
+					loader.classList.add("loader");        
+					img.before(loader); 
+
+					img.onload = function() {
+							loader.remove();
+							img.style.visibility = "visible";
+					};            
+			});
+	});
 
 	// translates...
 	let images = mem(() => [img, img])
@@ -54,7 +70,7 @@ export const Home = () => {
   return hdom([".home",
     [".home__landing",
 		 [".home__slider", {style: mem(() =>`transform: translateX(${offset()}vw)`)},
-			 ...images().map((img, i) => ["img", {src: img }],)
+				...images().map((img, i) => ["img", {loading: "lazy", src: img }],)
 			],
       [".home__shadow"]],
     [".home__work",

@@ -28,7 +28,11 @@ let imagefull = sig("false")
 eff_on(showing, () => showing() == "false" ? delay(() => selected(false)) : null)
 
 const FilterButton = (f) => {
-	const toggle = () => { disable_all(f.type); f.enabled = !f.enabled; refresh(); };
+	const toggle = () => {
+		disable_all(f.type);
+		f.enabled = !f.enabled;
+		refresh();
+	};
 
 	return hdom(
 		["button.filter-button", {
@@ -105,7 +109,7 @@ const ProjectPage = () => {
 	}
 
 	eff_on(index, () => {
-		if (!images()) return
+		if (!images() || index() == -1) return
 		selectedimage(images()[index()].image.display.url)
 	})
 
@@ -119,8 +123,23 @@ const ProjectPage = () => {
 		}
 	})
 
+	mounted(() => {
+			// document.querySelectorAll("img").forEach(function (img) {
+			// 		if (img.complete) {return;}
+			// 		img.style.visibility = "hidden";        
+			// 		let loader = document.createElement("div");
+			// 		loader.classList.add("loader");        
+			// 		img.before(loader); 
+
+			// 		img.onload = function() {
+			// 			loader.remove();
+			// 			img.style.visibility = "visible";
+			// 		};            
+			// });
+	})
+
 	return hdom(["div.full",
-		["button.close", { onclick: () => showing("false") }, "x"],
+		["button.close", { onclick: () => {index(-1);showing("false")} }, "x"],
 		[".project-page__img-container",
 			[".project__title", title],
 			[".empty", ""],
@@ -134,7 +153,24 @@ const ProjectPage = () => {
 }
 
 export const Projects = (p) => {
-	mounted(() => fade_in(".projects"));
+	mounted(() =>
+		{
+			// document.querySelectorAll("img").forEach(function (img) {
+			// 		if (img.complete) {return;}
+			// 		img.style.visibility = "hidden";        
+			// 		let loader = document.createElement("div");
+			// 		loader.classList.add("loader");        
+			// 		img.before(loader); 
+
+			// 		img.onload = function() {
+			// 			loader.remove();
+			// 			loader.style.display = "none"
+			// 			img.style.visibility = "visible";
+			// 		};            
+			// });
+			fade_in(".projects")
+		}
+	);
 	projects(p.map(clean_project));
 
 	return hdom([

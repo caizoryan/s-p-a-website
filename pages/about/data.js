@@ -40,8 +40,7 @@ data.consultants = [
   { name: "PCPL", filename: "PCPL.jpeg" },
   { name: "HVLV Consultants", filename: "HVLV Consultants.jpeg" },
   { name: `System Integrator (Automation and AV)`, filename: "System Integrator (Automation & AV).jpeg" },
-  { name: `Consultant & System integrator (Automation and AV)`, filename: "Consultant and System integrator (Automation and AV).jpeg" },
-
+	{ name: `Consultant & System integrator (Automation and AV)`, filename: "Consultant and System integrator (Automation and AV).jpeg"}
 ];
 
 data.logos = ["vipl", "ultratech", "byjus", "perficient",  "seller-drive",]
