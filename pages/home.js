@@ -65,12 +65,10 @@ export const Home = () => {
 		else offset(offset() - 100)
 	}, 5000)
 
-	let cols = mem(() => Array(found().length).fill(0).map((_) => "100vw").join(" "))
-	console.log(cols)
 
   return hdom([".home",
     [".home__landing",
-		 [".home__slider", {style: mem(() =>`transform: translateX(${offset()}vw); grid-template-columns: ${cols()};`)},
+		 [".home__slider", {style: mem(() =>`transform: translateX(${offset()}vw); `)},
 				...images().map((img, i) => ["img", {loading: "lazy", src: img }],)
 			],
       [".home__shadow"]],
