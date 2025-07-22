@@ -1,6 +1,14 @@
 let force = "&force=true";
-// let host = "http://localhost:3000/";
-let host = "https://api.are.na/v2/";
+let host = "http://localhost:3000/api/";
+// let host = "https://api.are.na/v2/";
+
+let main_vertical = await fetch(host + "channels/main-page-v?per=100" + force)
+  .then((res) => res.json())
+  .then((res) => res.contents);
+
+let main_horizontal = await fetch(host + "channels/main-page-h?per=100" + force)
+  .then((res) => res.json())
+  .then((res) => res.contents);
 
 let projects_fetch = await fetch(host + "channels/projects-9gn8-7a04c4?per=100" + force)
   .then((res) => res.json())
@@ -20,6 +28,7 @@ let press_fetch = await fetch(host + "channels/press-x28lxexyowi?per=100")
   .then((res) => res.json())
   .then((res) => res.contents);
 console.log(press_fetch.title);
+
 let press = [];
 
 for (let i = 0; i < press_fetch.length; i++) {
@@ -32,6 +41,8 @@ for (let i = 0; i < press_fetch.length; i++) {
 const data = {
   projects: format_projects(projects),
   press: format_press(press),
+	main_vertical,
+	main_horizontal
 };
 
 //
