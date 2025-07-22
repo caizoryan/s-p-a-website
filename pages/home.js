@@ -7,9 +7,10 @@ import { fade_in } from "../utils/transitions.js";
 window.addEventListener("resize", () => width(window.innerWidth))
 const width = sig(window.innerWidth);
 
-const found = data.projects.find((e) => e.title.toLowerCase().includes("mukewar"))
+const found = data.main_horizontal.map((e) => e.image)
+console.log(found)
 const index = mem(() => width() > 800 ? 0 : 1);
-const img = mem(() => found.images[index()].image.original.url)
+const img = mem(() => found[index()].original.url)
 
 let random_index = () => Math.floor(Math.random() * data.projects.length);
 let alt_img = mem(() => data.projects[random_index()].images[0].image.original.url);
@@ -59,17 +60,20 @@ export const Home = () => {
 	});
 
 	// translates...
-	let images = mem(() => [img, img])
+	let images = mem(() => [...found.map(e => e.original.url)])
 	let offset = sig(0)
 
-	// setInterval(() => {
-	// 	if(offset() == 0) offset(-100)
-	// 	else offset(0)
-	// }, 4000)
+	setInterval(() => {
+		if(offset() == (found.length - 1) * -100) offset(0)
+		else offset(offset() - 100)
+	}, 5000)
+
+	let cols = Array(found.length).fill(0).map((_) => "100vw").join(" ")
+	console.log(cols)
 
   return hdom([".home",
     [".home__landing",
-		 [".home__slider", {style: mem(() =>`transform: translateX(${offset()}vw)`)},
+		 [".home__slider", {style: mem(() =>`transform: translateX(${offset()}vw); grid-template-columns: ${cols};`)},
 				...images().map((img, i) => ["img", {loading: "lazy", src: img }],)
 			],
       [".home__shadow"]],
