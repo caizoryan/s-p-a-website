@@ -77,4 +77,9 @@ export let filter_map_data = [
 	}
 ]
 
-export let sqft = (arr) => [...arr].sort((a, b) => b.sqft - a.sqft);
+let int = (i) => isNaN(parseInt(i)) ? 0 : parseInt(i) 
+
+export let sqft = (arr) => [...arr].sort((a, b) => {
+		console.log(a.title, int(a.sqft))
+		return	int(b.sqft) - int(a.sqft)
+});
