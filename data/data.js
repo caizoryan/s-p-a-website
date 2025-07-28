@@ -5417,10 +5417,333 @@ export const data = {
     {
       "title": "— Altair",
       "type": [
-        "architecture"
+        "architecture",
+        "interior"
       ],
       "id": 2631247,
       "images": [
+        {
+          "title": "altair_final_exterior_left-front-perspective-view.jpg",
+          "image": {
+            "id": 38401093,
+            "filename": "953ddd8117431947a169bc2ae89b6039.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5My9vcmlnaW5hbF85NTNkZGQ4MTE3NDMxOTQ3YTE2OWJjMmFlODliNjAzOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401093/original_953ddd8117431947a169bc2ae89b6039.jpg?1753689392?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5My9vcmlnaW5hbF85NTNkZGQ4MTE3NDMxOTQ3YTE2OWJjMmFlODliNjAzOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5My9vcmlnaW5hbF85NTNkZGQ4MTE3NDMxOTQ3YTE2OWJjMmFlODliNjAzOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5My9vcmlnaW5hbF85NTNkZGQ4MTE3NDMxOTQ3YTE2OWJjMmFlODliNjAzOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "bird-view-02.jpg",
+          "image": {
+            "id": 38401092,
+            "filename": "3f8091454f37750f32178b704e240c28.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5Mi9vcmlnaW5hbF8zZjgwOTE0NTRmMzc3NTBmMzIxNzhiNzA0ZTI0MGMyOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401092/original_3f8091454f37750f32178b704e240c28.jpg?1753689394?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5Mi9vcmlnaW5hbF8zZjgwOTE0NTRmMzc3NTBmMzIxNzhiNzA0ZTI0MGMyOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5Mi9vcmlnaW5hbF8zZjgwOTE0NTRmMzc3NTBmMzIxNzhiNzA0ZTI0MGMyOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5Mi9vcmlnaW5hbF8zZjgwOTE0NTRmMzc3NTBmMzIxNzhiNzA0ZTI0MGMyOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_final_exterior_right-side-perspective-view.jpg",
+          "image": {
+            "id": 38401090,
+            "filename": "f802092a82bb9c5a7ecbed869ff27f85.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5MC9vcmlnaW5hbF9mODAyMDkyYTgyYmI5YzVhN2VjYmVkODY5ZmYyN2Y4NS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401090/original_f802092a82bb9c5a7ecbed869ff27f85.jpg?1753689394?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5MC9vcmlnaW5hbF9mODAyMDkyYTgyYmI5YzVhN2VjYmVkODY5ZmYyN2Y4NS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5MC9vcmlnaW5hbF9mODAyMDkyYTgyYmI5YzVhN2VjYmVkODY5ZmYyN2Y4NS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5MC9vcmlnaW5hbF9mODAyMDkyYTgyYmI5YzVhN2VjYmVkODY5ZmYyN2Y4NS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "reception-final.jpg",
+          "image": {
+            "id": 38401129,
+            "filename": "a256b9d5af84639c7479eab1831cc796.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEyOS9vcmlnaW5hbF9hMjU2YjlkNWFmODQ2MzljNzQ3OWVhYjE4MzFjYzc5Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401129/original_a256b9d5af84639c7479eab1831cc796.jpg?1753689625?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEyOS9vcmlnaW5hbF9hMjU2YjlkNWFmODQ2MzljNzQ3OWVhYjE4MzFjYzc5Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEyOS9vcmlnaW5hbF9hMjU2YjlkNWFmODQ2MzljNzQ3OWVhYjE4MzFjYzc5Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEyOS9vcmlnaW5hbF9hMjU2YjlkNWFmODQ2MzljNzQ3OWVhYjE4MzFjYzc5Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "lift-lobby.jpg",
+          "image": {
+            "id": 38401128,
+            "filename": "9989817491a0d42c86df9643112b8d6d.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEyOC9vcmlnaW5hbF85OTg5ODE3NDkxYTBkNDJjODZkZjk2NDMxMTJiOGQ2ZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401128/original_9989817491a0d42c86df9643112b8d6d.jpg?1753689624?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEyOC9vcmlnaW5hbF85OTg5ODE3NDkxYTBkNDJjODZkZjk2NDMxMTJiOGQ2ZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEyOC9vcmlnaW5hbF85OTg5ODE3NDkxYTBkNDJjODZkZjk2NDMxMTJiOGQ2ZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEyOC9vcmlnaW5hbF85OTg5ODE3NDkxYTBkNDJjODZkZjk2NDMxMTJiOGQ2ZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_final_exterior_garden-view.jpg",
+          "image": {
+            "id": 38401086,
+            "filename": "45d35ddd05066a133dd0814a9c8919c1.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4Ni9vcmlnaW5hbF80NWQzNWRkZDA1MDY2YTEzM2RkMDgxNGE5Yzg5MTljMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401086/original_45d35ddd05066a133dd0814a9c8919c1.jpg?1753689396?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4Ni9vcmlnaW5hbF80NWQzNWRkZDA1MDY2YTEzM2RkMDgxNGE5Yzg5MTljMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4Ni9vcmlnaW5hbF80NWQzNWRkZDA1MDY2YTEzM2RkMDgxNGE5Yzg5MTljMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4Ni9vcmlnaW5hbF80NWQzNWRkZDA1MDY2YTEzM2RkMDgxNGE5Yzg5MTljMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_cam1.jpg",
+          "image": {
+            "id": 25951311,
+            "filename": "fbfc8b669e5f1a9201c7743a04286dab.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTk1MTMxMS9vcmlnaW5hbF9mYmZjOGI2NjllNWYxYTkyMDFjNzc0M2EwNDI4NmRhYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/25951311/original_fbfc8b669e5f1a9201c7743a04286dab.jpg?1706289573?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTk1MTMxMS9vcmlnaW5hbF9mYmZjOGI2NjllNWYxYTkyMDFjNzc0M2EwNDI4NmRhYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTk1MTMxMS9vcmlnaW5hbF9mYmZjOGI2NjllNWYxYTkyMDFjNzc0M2EwNDI4NmRhYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTk1MTMxMS9vcmlnaW5hbF9mYmZjOGI2NjllNWYxYTkyMDFjNzc0M2EwNDI4NmRhYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "terrace-04-1-.jpg",
+          "image": {
+            "id": 38401094,
+            "filename": "766f56eac76dcbaeb8d7376fc4f3f7e0.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5NC9vcmlnaW5hbF83NjZmNTZlYWM3NmRjYmFlYjhkNzM3NmZjNGYzZjdlMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401094/original_766f56eac76dcbaeb8d7376fc4f3f7e0.jpg?1753689394?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5NC9vcmlnaW5hbF83NjZmNTZlYWM3NmRjYmFlYjhkNzM3NmZjNGYzZjdlMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5NC9vcmlnaW5hbF83NjZmNTZlYWM3NmRjYmFlYjhkNzM3NmZjNGYzZjdlMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5NC9vcmlnaW5hbF83NjZmNTZlYWM3NmRjYmFlYjhkNzM3NmZjNGYzZjdlMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_final_bird-view-01.jpg",
+          "image": {
+            "id": 38401088,
+            "filename": "40ab40295b461d0b28cb7616cab2cdf8.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4OC9vcmlnaW5hbF80MGFiNDAyOTViNDYxZDBiMjhjYjc2MTZjYWIyY2RmOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401088/original_40ab40295b461d0b28cb7616cab2cdf8.jpg?1753689393?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4OC9vcmlnaW5hbF80MGFiNDAyOTViNDYxZDBiMjhjYjc2MTZjYWIyY2RmOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4OC9vcmlnaW5hbF80MGFiNDAyOTViNDYxZDBiMjhjYjc2MTZjYWIyY2RmOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4OC9vcmlnaW5hbF80MGFiNDAyOTViNDYxZDBiMjhjYjc2MTZjYWIyY2RmOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_kids-play-area-view.jpg",
+          "image": {
+            "id": 38401089,
+            "filename": "7e3265fc0168328c990d6c84e5407660.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4OS9vcmlnaW5hbF83ZTMyNjVmYzAxNjgzMjhjOTkwZDZjODRlNTQwNzY2MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401089/original_7e3265fc0168328c990d6c84e5407660.jpg?1753689395?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4OS9vcmlnaW5hbF83ZTMyNjVmYzAxNjgzMjhjOTkwZDZjODRlNTQwNzY2MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4OS9vcmlnaW5hbF83ZTMyNjVmYzAxNjgzMjhjOTkwZDZjODRlNTQwNzY2MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4OS9vcmlnaW5hbF83ZTMyNjVmYzAxNjgzMjhjOTkwZDZjODRlNTQwNzY2MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_final_exterior_front-ant-eye-view.jpg",
+          "image": {
+            "id": 38401087,
+            "filename": "9b8e0302ac87ff543c4dcf149ea748ae.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4Ny9vcmlnaW5hbF85YjhlMDMwMmFjODdmZjU0M2M0ZGNmMTQ5ZWE3NDhhZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401087/original_9b8e0302ac87ff543c4dcf149ea748ae.jpg?1753689393?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4Ny9vcmlnaW5hbF85YjhlMDMwMmFjODdmZjU0M2M0ZGNmMTQ5ZWE3NDhhZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4Ny9vcmlnaW5hbF85YjhlMDMwMmFjODdmZjU0M2M0ZGNmMTQ5ZWE3NDhhZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4Ny9vcmlnaW5hbF85YjhlMDMwMmFjODdmZjU0M2M0ZGNmMTQ5ZWE3NDhhZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_final_exterior_right-front-perspective-view.jpg",
+          "image": {
+            "id": 38401091,
+            "filename": "256bc3c5a40a611e53723203087ab751.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5MS9vcmlnaW5hbF8yNTZiYzNjNWE0MGE2MTFlNTM3MjMyMDMwODdhYjc1MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401091/original_256bc3c5a40a611e53723203087ab751.jpg?1753689393?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5MS9vcmlnaW5hbF8yNTZiYzNjNWE0MGE2MTFlNTM3MjMyMDMwODdhYjc1MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5MS9vcmlnaW5hbF8yNTZiYzNjNWE0MGE2MTFlNTM3MjMyMDMwODdhYjc1MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5MS9vcmlnaW5hbF8yNTZiYzNjNWE0MGE2MTFlNTM3MjMyMDMwODdhYjc1MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_final_exterior_closeup-birdeye-perspective-view.jpg",
+          "image": {
+            "id": 38401085,
+            "filename": "f4df1290eedd90ca7efaedefba6b56f2.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4NS9vcmlnaW5hbF9mNGRmMTI5MGVlZGQ5MGNhN2VmYWVkZWZiYTZiNTZmMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401085/original_f4df1290eedd90ca7efaedefba6b56f2.jpg?1753689395?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4NS9vcmlnaW5hbF9mNGRmMTI5MGVlZGQ5MGNhN2VmYWVkZWZiYTZiNTZmMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4NS9vcmlnaW5hbF9mNGRmMTI5MGVlZGQ5MGNhN2VmYWVkZWZiYTZiNTZmMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4NS9vcmlnaW5hbF9mNGRmMTI5MGVlZGQ5MGNhN2VmYWVkZWZiYTZiNTZmMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_final_balcony-view.jpg",
+          "image": {
+            "id": 38401084,
+            "filename": "b49d3ff714b1ec3ac4a07e1f2f00885c.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4NC9vcmlnaW5hbF9iNDlkM2ZmNzE0YjFlYzNhYzRhMDdlMWYyZjAwODg1Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401084/original_b49d3ff714b1ec3ac4a07e1f2f00885c.jpg?1753689393?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4NC9vcmlnaW5hbF9iNDlkM2ZmNzE0YjFlYzNhYzRhMDdlMWYyZjAwODg1Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4NC9vcmlnaW5hbF9iNDlkM2ZmNzE0YjFlYzNhYzRhMDdlMWYyZjAwODg1Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4NC9vcmlnaW5hbF9iNDlkM2ZmNzE0YjFlYzNhYzRhMDdlMWYyZjAwODg1Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
         {
           "title": "altair_cam2.jpg",
           "image": {
@@ -5533,6 +5856,121 @@ export const data = {
             },
             "square": {
               "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIyNTk1MTMxMS9vcmlnaW5hbF9mYmZjOGI2NjllNWYxYTkyMDFjNzc0M2EwNDI4NmRhYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_final_swiming-pool_view01.jpg",
+          "image": {
+            "id": 38401130,
+            "filename": "4df91c386d1ddf9fe169f46e979c5f91.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzMC9vcmlnaW5hbF80ZGY5MWMzODZkMWRkZjlmZTE2OWY0NmU5NzljNWY5MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401130/original_4df91c386d1ddf9fe169f46e979c5f91.jpg?1753689633?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzMC9vcmlnaW5hbF80ZGY5MWMzODZkMWRkZjlmZTE2OWY0NmU5NzljNWY5MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzMC9vcmlnaW5hbF80ZGY5MWMzODZkMWRkZjlmZTE2OWY0NmU5NzljNWY5MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzMC9vcmlnaW5hbF80ZGY5MWMzODZkMWRkZjlmZTE2OWY0NmU5NzljNWY5MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_final_spa.jpg",
+          "image": {
+            "id": 38401131,
+            "filename": "69de5fda8402998dbe9db7e904d2dbdd.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzMS9vcmlnaW5hbF82OWRlNWZkYTg0MDI5OThkYmU5ZGI3ZTkwNGQyZGJkZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401131/original_69de5fda8402998dbe9db7e904d2dbdd.jpg?1753689633?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzMS9vcmlnaW5hbF82OWRlNWZkYTg0MDI5OThkYmU5ZGI3ZTkwNGQyZGJkZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzMS9vcmlnaW5hbF82OWRlNWZkYTg0MDI5OThkYmU5ZGI3ZTkwNGQyZGJkZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzMS9vcmlnaW5hbF82OWRlNWZkYTg0MDI5OThkYmU5ZGI3ZTkwNGQyZGJkZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_final_co-working-space_view01.jpg",
+          "image": {
+            "id": 38401135,
+            "filename": "aff3cb55398609631f32ce5ae7fca1f3.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzNS9vcmlnaW5hbF9hZmYzY2I1NTM5ODYwOTYzMWYzMmNlNWFlN2ZjYTFmMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401135/original_aff3cb55398609631f32ce5ae7fca1f3.jpg?1753689654?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzNS9vcmlnaW5hbF9hZmYzY2I1NTM5ODYwOTYzMWYzMmNlNWFlN2ZjYTFmMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzNS9vcmlnaW5hbF9hZmYzY2I1NTM5ODYwOTYzMWYzMmNlNWFlN2ZjYTFmMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzNS9vcmlnaW5hbF9hZmYzY2I1NTM5ODYwOTYzMWYzMmNlNWFlN2ZjYTFmMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_final_arcade_view01.jpg",
+          "image": {
+            "id": 38401136,
+            "filename": "1509ba8a4d1a3052895467973836811d.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzNi9vcmlnaW5hbF8xNTA5YmE4YTRkMWEzMDUyODk1NDY3OTczODM2ODExZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401136/original_1509ba8a4d1a3052895467973836811d.jpg?1753689655?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzNi9vcmlnaW5hbF8xNTA5YmE4YTRkMWEzMDUyODk1NDY3OTczODM2ODExZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzNi9vcmlnaW5hbF8xNTA5YmE4YTRkMWEzMDUyODk1NDY3OTczODM2ODExZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzNi9vcmlnaW5hbF8xNTA5YmE4YTRkMWEzMDUyODk1NDY3OTczODM2ODExZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "altair_final_co-working-space_view02.jpg",
+          "image": {
+            "id": 38401137,
+            "filename": "a8b1862ddfe24d2becb3552b7f0231e1.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzNy9vcmlnaW5hbF9hOGIxODYyZGRmZTI0ZDJiZWNiMzU1MmI3ZjAyMzFlMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401137/original_a8b1862ddfe24d2becb3552b7f0231e1.jpg?1753689659?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzNy9vcmlnaW5hbF9hOGIxODYyZGRmZTI0ZDJiZWNiMzU1MmI3ZjAyMzFlMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzNy9vcmlnaW5hbF9hOGIxODYyZGRmZTI0ZDJiZWNiMzU1MmI3ZjAyMzFlMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTEzNy9vcmlnaW5hbF9hOGIxODYyZGRmZTI0ZDJiZWNiMzU1MmI3ZjAyMzFlMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
             }
           }
         }
@@ -6004,6 +6442,29 @@ export const data = {
       "id": 2631274,
       "images": [
         {
+          "title": "luxuria_eve4.jpg",
+          "image": {
+            "id": 38401054,
+            "filename": "a2492777a4f1557ad5a898c5dabc3fb8.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA1NC9vcmlnaW5hbF9hMjQ5Mjc3N2E0ZjE1NTdhZDVhODk4YzVkYWJjM2ZiOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401054/original_a2492777a4f1557ad5a898c5dabc3fb8.jpg?1753689134?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA1NC9vcmlnaW5hbF9hMjQ5Mjc3N2E0ZjE1NTdhZDVhODk4YzVkYWJjM2ZiOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA1NC9vcmlnaW5hbF9hMjQ5Mjc3N2E0ZjE1NTdhZDVhODk4YzVkYWJjM2ZiOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA1NC9vcmlnaW5hbF9hMjQ5Mjc3N2E0ZjE1NTdhZDVhODk4YzVkYWJjM2ZiOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
           "title": "luxuria_c2.jpg",
           "image": {
             "id": 25951610,
@@ -6181,7 +6642,8 @@ export const data = {
       "sub_type": [
         "commercial",
         "office"
-      ]
+      ],
+      "sqft": "300000"
     },
     {
       "title": "— VR Nexus",
@@ -6417,6 +6879,203 @@ export const data = {
         "hospitality"
       ],
       "sqft": "400000"
+    },
+    {
+      "title": "— Sheraton",
+      "type": [
+        "architecture"
+      ],
+      "id": 4034171,
+      "images": [
+        {
+          "title": "asthavinayak_day_cam1.jpg",
+          "image": {
+            "id": 38401039,
+            "filename": "e5b007db6cf4b38cd9d2747a8468de06.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTAzOS9vcmlnaW5hbF9lNWIwMDdkYjZjZjRiMzhjZDlkMjc0N2E4NDY4ZGUwNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401039/original_e5b007db6cf4b38cd9d2747a8468de06.jpg?1753689030?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTAzOS9vcmlnaW5hbF9lNWIwMDdkYjZjZjRiMzhjZDlkMjc0N2E4NDY4ZGUwNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTAzOS9vcmlnaW5hbF9lNWIwMDdkYjZjZjRiMzhjZDlkMjc0N2E4NDY4ZGUwNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTAzOS9vcmlnaW5hbF9lNWIwMDdkYjZjZjRiMzhjZDlkMjc0N2E4NDY4ZGUwNi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "asthavinayak_day_cam2.jpg",
+          "image": {
+            "id": 38401035,
+            "filename": "c57b28ac3f39defe235a1ac1fdc3846b.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTAzNS9vcmlnaW5hbF9jNTdiMjhhYzNmMzlkZWZlMjM1YTFhYzFmZGMzODQ2Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401035/original_c57b28ac3f39defe235a1ac1fdc3846b.jpg?1753689002?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTAzNS9vcmlnaW5hbF9jNTdiMjhhYzNmMzlkZWZlMjM1YTFhYzFmZGMzODQ2Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTAzNS9vcmlnaW5hbF9jNTdiMjhhYzNmMzlkZWZlMjM1YTFhYzFmZGMzODQ2Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTAzNS9vcmlnaW5hbF9jNTdiMjhhYzNmMzlkZWZlMjM1YTFhYzFmZGMzODQ2Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "asthavinayak_eve_cam3.jpg",
+          "image": {
+            "id": 38401034,
+            "filename": "3ca151c441f7d17ce3d3b9bf500a9a6c.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTAzNC9vcmlnaW5hbF8zY2ExNTFjNDQxZjdkMTdjZTNkM2I5YmY1MDBhOWE2Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401034/original_3ca151c441f7d17ce3d3b9bf500a9a6c.jpg?1753689000?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTAzNC9vcmlnaW5hbF8zY2ExNTFjNDQxZjdkMTdjZTNkM2I5YmY1MDBhOWE2Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTAzNC9vcmlnaW5hbF8zY2ExNTFjNDQxZjdkMTdjZTNkM2I5YmY1MDBhOWE2Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTAzNC9vcmlnaW5hbF8zY2ExNTFjNDQxZjdkMTdjZTNkM2I5YmY1MDBhOWE2Yy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "4bhk-bedroom_02-update-2-.jpg",
+          "image": {
+            "id": 38401078,
+            "filename": "fe7821173d55f483f71ee7956a610e4f.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA3OC9vcmlnaW5hbF9mZTc4MjExNzNkNTVmNDgzZjcxZWU3OTU2YTYxMGU0Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401078/original_fe7821173d55f483f71ee7956a610e4f.jpg?1753689352?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA3OC9vcmlnaW5hbF9mZTc4MjExNzNkNTVmNDgzZjcxZWU3OTU2YTYxMGU0Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA3OC9vcmlnaW5hbF9mZTc4MjExNzNkNTVmNDgzZjcxZWU3OTU2YTYxMGU0Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA3OC9vcmlnaW5hbF9mZTc4MjExNzNkNTVmNDgzZjcxZWU3OTU2YTYxMGU0Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "4bhk-living_01-update-2-.jpg",
+          "image": {
+            "id": 38401079,
+            "filename": "ab34643849d24b67f8e79cfbb1d872d4.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA3OS9vcmlnaW5hbF9hYjM0NjQzODQ5ZDI0YjY3ZjhlNzljZmJiMWQ4NzJkNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401079/original_ab34643849d24b67f8e79cfbb1d872d4.jpg?1753689353?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA3OS9vcmlnaW5hbF9hYjM0NjQzODQ5ZDI0YjY3ZjhlNzljZmJiMWQ4NzJkNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA3OS9vcmlnaW5hbF9hYjM0NjQzODQ5ZDI0YjY3ZjhlNzljZmJiMWQ4NzJkNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA3OS9vcmlnaW5hbF9hYjM0NjQzODQ5ZDI0YjY3ZjhlNzljZmJiMWQ4NzJkNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "4bhk-bedroom_04-update-2-.jpg",
+          "image": {
+            "id": 38401080,
+            "filename": "190ae4fc03f383e97928981e8e0e90f3.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4MC9vcmlnaW5hbF8xOTBhZTRmYzAzZjM4M2U5NzkyODk4MWU4ZTBlOTBmMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401080/original_190ae4fc03f383e97928981e8e0e90f3.jpg?1753689352?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4MC9vcmlnaW5hbF8xOTBhZTRmYzAzZjM4M2U5NzkyODk4MWU4ZTBlOTBmMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4MC9vcmlnaW5hbF8xOTBhZTRmYzAzZjM4M2U5NzkyODk4MWU4ZTBlOTBmMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4MC9vcmlnaW5hbF8xOTBhZTRmYzAzZjM4M2U5NzkyODk4MWU4ZTBlOTBmMy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "4bhk-bedroom_01-update-2-.jpg",
+          "image": {
+            "id": 38401081,
+            "filename": "739f93ae79dcb52e1210e4fdc7745be0.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4MS9vcmlnaW5hbF83MzlmOTNhZTc5ZGNiNTJlMTIxMGU0ZmRjNzc0NWJlMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401081/original_739f93ae79dcb52e1210e4fdc7745be0.jpg?1753689352?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4MS9vcmlnaW5hbF83MzlmOTNhZTc5ZGNiNTJlMTIxMGU0ZmRjNzc0NWJlMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4MS9vcmlnaW5hbF83MzlmOTNhZTc5ZGNiNTJlMTIxMGU0ZmRjNzc0NWJlMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4MS9vcmlnaW5hbF83MzlmOTNhZTc5ZGNiNTJlMTIxMGU0ZmRjNzc0NWJlMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "4bhk-kitchen-update-3.jpg",
+          "image": {
+            "id": 38401082,
+            "filename": "b53532c2b98460e6c29e33b9afc46997.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4Mi9vcmlnaW5hbF9iNTM1MzJjMmI5ODQ2MGU2YzI5ZTMzYjlhZmM0Njk5Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401082/original_b53532c2b98460e6c29e33b9afc46997.jpg?1753689352?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4Mi9vcmlnaW5hbF9iNTM1MzJjMmI5ODQ2MGU2YzI5ZTMzYjlhZmM0Njk5Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4Mi9vcmlnaW5hbF9iNTM1MzJjMmI5ODQ2MGU2YzI5ZTMzYjlhZmM0Njk5Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4Mi9vcmlnaW5hbF9iNTM1MzJjMmI5ODQ2MGU2YzI5ZTMzYjlhZmM0Njk5Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        }
+      ],
+      "sub_type": [
+        "Residential"
+      ],
+      "sqft": "300000"
     }
   ],
   "press": [
@@ -6760,7 +7419,7 @@ export const data = {
       "block_id": 25951311,
       "downloaded": "false",
       "title": "altair_cam1.jpg",
-      "updated_at": "2025-07-22T07:37:51.296Z",
+      "updated_at": "2025-07-28T07:56:51.034Z",
       "created_at": "2024-01-26T17:19:32.019Z",
       "comment_count": 0,
       "generated_title": "altair_cam1.jpg",
@@ -6799,7 +7458,7 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 725,
+        "channel_count": 729,
         "following_count": 257,
         "follower_count": 70
       }
@@ -6853,7 +7512,7 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 725,
+        "channel_count": 729,
         "following_count": 257,
         "follower_count": 70
       }
@@ -6907,11 +7566,173 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 725,
+        "channel_count": 729,
         "following_count": 257,
         "follower_count": 70
       }
     },
+    {
+      "id": 38275208,
+      "position": 3,
+      "connected_at": "2025-07-22T07:42:35.684Z",
+      "connected_by_user_id": 353398,
+      "parent_id": 4014296,
+      "channel_id": 0,
+      "block_id": 38275208,
+      "downloaded": "false",
+      "title": "1_4-photo.jpg",
+      "updated_at": "2025-07-22T07:42:35.701Z",
+      "created_at": "2025-07-22T07:34:26.238Z",
+      "comment_count": 0,
+      "generated_title": "1_4-photo.jpg",
+      "class": "Image",
+      "base_class": "Block",
+      "content": "=\n7. e\n'\\\n\nSessc=Ear\n\n= N T\\\nWEE\\==En\\U\\EER Y @ W) 2 \\EE W\n\nT\n\n|\n\nYTy,\n\nE————N N\nl/ ”I\n\nNN NN\nN NN\nNN\nS5\n\n",
+      "content_html": "<p>=<br>\n7. e<br>\n'\\</p>\n\n<p>Sessc=Ear</p>\n\n<p>= N T\\<br>\nWEE==En\\U\\EER Y @ W) 2 \\EE W</p>\n\n<p>T</p>\n\n<p>|</p>\n\n<p>YTy,</p>\n\n<p>E————N N<br>\nl/ ”I</p>\n\n<p>NN NN<br>\nN NN<br>\nNN<br>\nS5</p>",
+      "description": "",
+      "description_html": "",
+      "owner_id": 353398,
+      "attachment": null,
+      "image": {
+        "id": 38275208,
+        "filename": "8a1d303b7af40eaa3be6b57aa582d543.jpg",
+        "content_type": "image/jpeg",
+        "large": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODI3NTIwOC9vcmlnaW5hbF84YTFkMzAzYjdhZjQwZWFhM2JlNmI1N2FhNTgyZDU0My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+        },
+        "original": {
+          "url": "https://d2w9rnfcy7mm78.cloudfront.net/38275208/original_8a1d303b7af40eaa3be6b57aa582d543.jpg?1753169667?bc=0"
+        },
+        "display": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODI3NTIwOC9vcmlnaW5hbF84YTFkMzAzYjdhZjQwZWFhM2JlNmI1N2FhNTgyZDU0My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+        },
+        "thumb": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODI3NTIwOC9vcmlnaW5hbF84YTFkMzAzYjdhZjQwZWFhM2JlNmI1N2FhNTgyZDU0My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+        },
+        "square": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODI3NTIwOC9vcmlnaW5hbF84YTFkMzAzYjdhZjQwZWFhM2JlNmI1N2FhNTgyZDU0My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+        }
+      },
+      "source": null,
+      "user": {
+        "id": 353398,
+        "slug": "aaryan-pashine",
+        "username": "Aaryan Pashine",
+        "first_name": "Aaryan",
+        "last_name": "Pashine",
+        "channel_count": 729,
+        "following_count": 257,
+        "follower_count": 70
+      }
+    },
+    {
+      "id": 38401091,
+      "position": 4,
+      "connected_at": "2025-07-28T07:59:36.075Z",
+      "connected_by_user_id": 353398,
+      "parent_id": 4014296,
+      "channel_id": 0,
+      "block_id": 38401091,
+      "downloaded": "false",
+      "title": "altair_final_exterior_right-front-perspective-view.jpg",
+      "updated_at": "2025-07-28T07:59:36.099Z",
+      "created_at": "2025-07-28T07:56:31.657Z",
+      "comment_count": 0,
+      "generated_title": "altair_final_exterior_right-front-perspective-view.jpg",
+      "class": "Image",
+      "base_class": "Block",
+      "content": "&amp;\nN ) a\nR )\n% 5 -,\nR\n‘6\\\n&lt; g\nN | £ \\\n3 [\n7\n\\\nNy\nN\n- 4\n-\nv\n[\\ Q ¢\na S\n\n&gt;\n\nR\n\nwf\n\nT\n\nF__—\n\n| |\n\n|\n\n'/ ST N O O O O O N O R T O T T e ey W\n\n“ NS ENINAN,\n\no S\n\n",
+      "content_html": "<p>&amp;<br>\nN ) a<br>\nR )<br>\n% 5 -,<br>\nR<br>\n‘6\\<br>\n&lt; g<br>\nN | £ \\<br>\n3 [<br>\n7<br>\n\\<br>\nNy<br>\nN</p>\n\n<h2>- 4</h2>\n\n<p>v<br>\n[\\ Q ¢<br>\na S</p>\n\n<blockquote>\n</blockquote>\n\n<p>R</p>\n\n<p>wf</p>\n\n<p>T</p>\n\n<p>F__—</p>\n\n<p>| |</p>\n\n<p>|</p>\n\n<p>'/ ST N O O O O O N O R T O T T e ey W</p>\n\n<p>“ NS ENINAN,</p>\n\n<p>o S</p>",
+      "description": "",
+      "description_html": "",
+      "owner_id": 353398,
+      "attachment": null,
+      "image": {
+        "id": 38401091,
+        "filename": "256bc3c5a40a611e53723203087ab751.jpg",
+        "content_type": "image/jpeg",
+        "large": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5MS9vcmlnaW5hbF8yNTZiYzNjNWE0MGE2MTFlNTM3MjMyMDMwODdhYjc1MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+        },
+        "original": {
+          "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401091/original_256bc3c5a40a611e53723203087ab751.jpg?1753689393?bc=0"
+        },
+        "display": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5MS9vcmlnaW5hbF8yNTZiYzNjNWE0MGE2MTFlNTM3MjMyMDMwODdhYjc1MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+        },
+        "thumb": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5MS9vcmlnaW5hbF8yNTZiYzNjNWE0MGE2MTFlNTM3MjMyMDMwODdhYjc1MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+        },
+        "square": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA5MS9vcmlnaW5hbF8yNTZiYzNjNWE0MGE2MTFlNTM3MjMyMDMwODdhYjc1MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+        }
+      },
+      "source": null,
+      "user": {
+        "id": 353398,
+        "slug": "aaryan-pashine",
+        "username": "Aaryan Pashine",
+        "first_name": "Aaryan",
+        "last_name": "Pashine",
+        "channel_count": 729,
+        "following_count": 257,
+        "follower_count": 70
+      }
+    },
+    {
+      "id": 38401054,
+      "position": 5,
+      "connected_at": "2025-07-28T07:59:48.199Z",
+      "connected_by_user_id": 353398,
+      "parent_id": 4014296,
+      "channel_id": 0,
+      "block_id": 38401054,
+      "downloaded": "false",
+      "title": "luxuria_eve4.jpg",
+      "updated_at": "2025-07-28T07:59:48.216Z",
+      "created_at": "2025-07-28T07:52:13.382Z",
+      "comment_count": 0,
+      "generated_title": "luxuria_eve4.jpg",
+      "class": "Image",
+      "base_class": "Block",
+      "content": "SR\\ A\\\nB\\ S\\ SR\\ A\\\n\ni\n\nU1 UL\n\nNS\n\n/i .:“muv‘m f.l\n\n",
+      "content_html": "<p>SR\\ A\\<br>\nB\\ S\\ SR\\ A\\</p>\n\n<p>i</p>\n\n<p>U1 UL</p>\n\n<p>NS</p>\n\n<p>/i .:“muv‘m f.l</p>",
+      "description": "",
+      "description_html": "",
+      "owner_id": 353398,
+      "attachment": null,
+      "image": {
+        "id": 38401054,
+        "filename": "a2492777a4f1557ad5a898c5dabc3fb8.jpg",
+        "content_type": "image/jpeg",
+        "large": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA1NC9vcmlnaW5hbF9hMjQ5Mjc3N2E0ZjE1NTdhZDVhODk4YzVkYWJjM2ZiOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+        },
+        "original": {
+          "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401054/original_a2492777a4f1557ad5a898c5dabc3fb8.jpg?1753689134?bc=0"
+        },
+        "display": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA1NC9vcmlnaW5hbF9hMjQ5Mjc3N2E0ZjE1NTdhZDVhODk4YzVkYWJjM2ZiOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+        },
+        "thumb": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA1NC9vcmlnaW5hbF9hMjQ5Mjc3N2E0ZjE1NTdhZDVhODk4YzVkYWJjM2ZiOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+        },
+        "square": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA1NC9vcmlnaW5hbF9hMjQ5Mjc3N2E0ZjE1NTdhZDVhODk4YzVkYWJjM2ZiOC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+        }
+      },
+      "source": null,
+      "user": {
+        "id": 353398,
+        "slug": "aaryan-pashine",
+        "username": "Aaryan Pashine",
+        "first_name": "Aaryan",
+        "last_name": "Pashine",
+        "channel_count": 729,
+        "following_count": 257,
+        "follower_count": 70
+      }
+    }
   ],
   "main_horizontal": [
     {
@@ -6963,7 +7784,7 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 725,
+        "channel_count": 729,
         "following_count": 257,
         "follower_count": 70
       }
@@ -7017,7 +7838,7 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 725,
+        "channel_count": 729,
         "following_count": 257,
         "follower_count": 70
       }
@@ -7071,7 +7892,7 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 725,
+        "channel_count": 729,
         "following_count": 257,
         "follower_count": 70
       }
@@ -7125,7 +7946,7 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 725,
+        "channel_count": 729,
         "following_count": 257,
         "follower_count": 70
       }
@@ -7179,7 +8000,61 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 725,
+        "channel_count": 729,
+        "following_count": 257,
+        "follower_count": 70
+      }
+    },
+    {
+      "id": 38401085,
+      "position": 6,
+      "connected_at": "2025-07-28T07:57:59.982Z",
+      "connected_by_user_id": 353398,
+      "parent_id": 4014310,
+      "channel_id": 0,
+      "block_id": 38401085,
+      "downloaded": "false",
+      "title": "altair_final_exterior_closeup-birdeye-perspective-view.jpg",
+      "updated_at": "2025-07-28T07:57:59.993Z",
+      "created_at": "2025-07-28T07:56:31.059Z",
+      "comment_count": 0,
+      "generated_title": "altair_final_exterior_closeup-birdeye-perspective-view.jpg",
+      "class": "Image",
+      "base_class": "Block",
+      "content": "R\nNI AN SN T TR\n\n,w,mwﬁﬁmﬁggabﬁzﬂsguﬁgE%wgﬁm\n\n",
+      "content_html": "<p>R<br>\nNI AN SN T TR</p>\n\n<p>,w,mwﬁﬁmﬁggabﬁzﬂsguﬁgE%wgﬁm</p>",
+      "description": "",
+      "description_html": "",
+      "owner_id": 353398,
+      "attachment": null,
+      "image": {
+        "id": 38401085,
+        "filename": "f4df1290eedd90ca7efaedefba6b56f2.jpg",
+        "content_type": "image/jpeg",
+        "large": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4NS9vcmlnaW5hbF9mNGRmMTI5MGVlZGQ5MGNhN2VmYWVkZWZiYTZiNTZmMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+        },
+        "original": {
+          "url": "https://d2w9rnfcy7mm78.cloudfront.net/38401085/original_f4df1290eedd90ca7efaedefba6b56f2.jpg?1753689395?bc=0"
+        },
+        "display": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4NS9vcmlnaW5hbF9mNGRmMTI5MGVlZGQ5MGNhN2VmYWVkZWZiYTZiNTZmMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+        },
+        "thumb": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4NS9vcmlnaW5hbF9mNGRmMTI5MGVlZGQ5MGNhN2VmYWVkZWZiYTZiNTZmMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+        },
+        "square": {
+          "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiIzODQwMTA4NS9vcmlnaW5hbF9mNGRmMTI5MGVlZGQ5MGNhN2VmYWVkZWZiYTZiNTZmMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+        }
+      },
+      "source": null,
+      "user": {
+        "id": 353398,
+        "slug": "aaryan-pashine",
+        "username": "Aaryan Pashine",
+        "first_name": "Aaryan",
+        "last_name": "Pashine",
+        "channel_count": 729,
         "following_count": 257,
         "follower_count": 70
       }
