@@ -47,7 +47,7 @@ data.logos = [
 	"byjus",
 	"perficient",
 	"gastro",
-	"seller-drive",
+	"seller",
 	"lokmat",
 	"nmrda",
 	"midas",
