@@ -46,6 +46,7 @@ data.logos = [
 	"ultratech",
 	"byjus",
 	"perficient",
+	"gastro",
 	"seller-drive",
 	"lokmat",
 	"nmrda",
