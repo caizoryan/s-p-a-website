@@ -71,7 +71,6 @@ const Project = ({ image, title, type, sub_type, images }) => {
 	let click = () => {
 		selected({ image, title, type, sub_type, images })
 		showing("true")
-		easter_egg_click(title)
 	}
 
 	return hdom([

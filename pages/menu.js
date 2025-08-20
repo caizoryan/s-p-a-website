@@ -2,6 +2,7 @@ import { menu_items } from "../script.js";
 import { page, cur_page } from "../router.js";
 import { each, mem } from "../tapri/monke.js";
 import { hdom } from "../tapri/hdom/index.js";
+import { easter_egg_click } from "../utils/colorschemes.js";
 
 /* ===============================
 	 Menu
@@ -39,7 +40,10 @@ export const Menu = () => {
 	 Label
 	 =============================== */
 const MenuButton = (text) => {
-	let click = () => page("/" + text.toLowerCase());
+	let click = () => {
+		page("/" + text.toLowerCase());
+		if (text.toLowerCase() == "press") easter_egg_click()
+	}
 	let is_selected = mem(() => {
 		console.log("is", cur_page())
 		return cur_page() == text

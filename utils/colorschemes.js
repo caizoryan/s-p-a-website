@@ -8,17 +8,18 @@ const easteregg = (t = 3000, rate = 0.05, cutoff = 800) => {
 
 const css = (...args) => less.modifyVars(...args);
 
+let counter = 0
+let last_click = new Date()
 const easter_egg_click = (title) => {
-  let extra = () => { }
-  if (title.includes("Pashine")) {
-    let couter = 0;
-    let click = () => {
-      couter += 1;
-      if (couter == 20) { easteregg(); }
-    };
-    extra = click;
-  }
-  return extra;
+	let now = new Date()
+	if (now - last_click > 10000) {
+		last_click = now
+		counter = 0
+	}
+	else {console.log("time left: ", 10000 - (now - last_click))}
+	counter += 1;
+	if (counter == 20) { easteregg(); }
+	console.log(counter)
 }
 
 const new_timeout = (time, rate, cutoff) => {
