@@ -39,9 +39,6 @@ data.consultants = [
 	{ people: 'Moin Naqvi', name: "HVAC consultant, Cool Kraft", filename: "moin.jpeg" },
 	{ people: 'Kanchan & Dinesh Yadav', name: "KDBY architects", filename: "KDBY architects.jpeg" },
 	
-	
-
-	
 ];
 
 data.logos = [
@@ -52,8 +49,13 @@ data.logos = [
 	"seller-drive",
 	"lokmat",
 	"nmrda",
-	//"zilla-parishad",
-	//"nmc",
-	"midas"]
+	"midas",
+	"nit-r",
+	"madc",
+	"nanik",
+	"rangoli-r",
+	"zp-r",
+	"nmc-r",
+]
 
 export { data };

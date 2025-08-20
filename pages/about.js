@@ -61,7 +61,7 @@ export let About = () => {
 			["div",
 				["h1", "Clients"],
 				// data.clients.map(c => ["p", c])
-			 data.logos.map(c => ["img.logo", {src: "./logos/" + c + ".png"}])
+			 data.logos.map(c => [c.split('-').pop() == 'r' ? "img.logo.logo-r" : 'img.logo', {src: "./logos/" + c.split('-')[0] + ".png"}])
 			]
 		]
 
