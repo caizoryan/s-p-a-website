@@ -1,6 +1,6 @@
 import { mounted } from "../tapri/monke.js";
 import { hdom } from "../tapri/hdom/index.js";
-import { fade_in } from "../utils/transitions.js";
+import { fade_in, fade_in_stagger } from "../utils/transitions.js";
 import { data } from "./about/data.js";
 
 export let About = () => {
@@ -9,6 +9,8 @@ export let About = () => {
 		fade_in(".main", 500)
 		fade_in(".consultants", 400)
 		fade_in(".description", 300)
+		fade_in_stagger(".consultant", 800, 350, 1000)
+		fade_in_stagger(".logo", 800, 350, 2000)
 	});
 
 	let description = "Salankar Pashine & Associates, based in Nagpur, specialises in offering architectural and interior design services across a diverse range of projects, including residential, mixed-use, educational, medical, commercial, and industrial ventures. Established in 1999 and led by Principal Architects Anurag and Pallavi Pashine";
