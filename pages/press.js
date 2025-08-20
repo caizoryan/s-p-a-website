@@ -14,8 +14,15 @@ const PressBox = (press) => {
   return [".press__box", press_image_box(large(image))]
 };
 
+	let description = "Salankar Pashine & Associates, based in Nagpur, specialises in offering architectural and interior design services across a diverse range of projects, including residential, mixed-use, educational, medical, commercial, and industrial ventures. Established in 1999 and led by Principal Architects Anurag and Pallavi Pashine";
+
 export const Press = (p) => hdom(
   [".press",
+		[".description",
+			["div"],
+			[".text", description]
+		],
     [".press-container",
+
       p.map(PressBox)
     ]]);

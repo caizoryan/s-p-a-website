@@ -145,6 +145,7 @@ const ProjectPage = () => {
 		[".project-page__img-container",
 			[".project__title", title],
 			[".empty", ""],
+			[".empty", ""],
 			() => each(images, (src, i) =>
 				hdom(["img.project-page__img",
 							{ src: src.image.display.url, onclick: showfullimage(i)}

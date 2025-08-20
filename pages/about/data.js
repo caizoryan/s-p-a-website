@@ -1,13 +1,5 @@
 let data = {};
 data.services = ["Architecture", "Interior Design", "Project Management"];
-data.clients = [
-	"VIPL",
-	"Byjus",
-	"IT Park",
-	"UltraTech",
-	"Perficient",
-	"Seller Drive"
-];
 
 data.contact = [
 	"01, RPTS Rd, Laxminagar,",
@@ -36,11 +28,20 @@ Pallavi’s design philosophy and impactful work have been featured in top publi
 `
 
 data.consultants = [
-	{ name: "KDBY architects", filename: "KDBY architects.jpeg" },
-	{ name: "PCPL", filename: "PCPL.jpeg" },
-	{ name: "HVLV Consultants", filename: "HVLV Consultants.jpeg" },
-	{ name: `System Integrator (Automation and AV)`, filename: "System Integrator (Automation & AV).jpeg" },
-	{ name: `Consultant & System integrator (Automation and AV)`, filename: "Consultant and System integrator (Automation and AV).jpeg" }
+	{ people: 'P.S. Patankar', name: "PCPL", filename: "PCPL.jpeg" },
+	{ people: 'Niranjan Deshkar', name: "HVLV Consultants", filename: "HVLV Consultants.jpeg" },
+	{ people: 'Vikas Kothari', name: `System Integrator (Automation and AV)`, filename: "System Integrator (Automation & AV).jpeg" },
+	{people: 'Salil Karkhanis', name: 'Unicorn Consulting Engineers Ltd.', filename: 'salil.jpeg'},
+	{ people: 'Jitendra Rahangdale', name: "HB Electricals, Electrical Consultants", filename: "jitendra.jpeg" },
+	{ people: 'Harshal Ninawe', name: `Consultant & System integrator (Automation and AV)`, filename: "Consultant and System integrator (Automation and AV).jpeg" },
+	{people: 'Nilesh Kate', name: 'Gentech engineering HVAC consultant vac ', filename: 'nilesh.jpeg'},
+	{people: 'Ajay dhomne', name: 'Fire Consultant', filename: 'ajay.jpeg'},
+	{ people: 'Moin Naqvi', name: "HVAC consultant, Cool Kraft", filename: "moin.jpeg" },
+	{ people: 'Kanchan & Dinesh Yadav', name: "KDBY architects", filename: "KDBY architects.jpeg" },
+	
+	
+
+	
 ];
 
 data.logos = [

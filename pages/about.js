@@ -16,7 +16,8 @@ export let About = () => {
 	let consultant = n => [
 		".consultant",
 		[".img-container", ["img", { src: "./people/" + n.filename }]],
-		["p", n.name]
+		["p.name", n.people],
+		["p.bottom", n.name]
 	]
 
 	return hdom([

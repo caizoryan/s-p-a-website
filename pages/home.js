@@ -7,6 +7,7 @@ import { fade_in } from "../utils/transitions.js";
 window.addEventListener("resize", () => width(window.innerWidth))
 const width = sig(window.innerWidth);
 
+const loaded = sig(false)
 const found = mem(() => width() > 800
 									? data.main_horizontal.map((e) => e.image)
 									: data.main_vertical.map((e) => e.image))
@@ -36,7 +37,6 @@ const Category = ({ name, link }) => {
 }
 
 export const Home = () => {
-
   mounted(() => {
 			fade_in(".home__work", 1000)
 			fade_in(".home__landing", 1600)
@@ -65,11 +65,15 @@ export const Home = () => {
 		else offset(offset() - 100)
 	}, 5000)
 
+	let style = () => `
+		transition: ${offset() == 0 ? 0 : 1200}ms ease-in-out;
+		transform: translateX(${offset()}vw); 
+	`
 
   return hdom([".home",
     [".home__landing",
-		 [".home__slider", {style: mem(() =>`transform: translateX(${offset()}vw); `)},
-				...images().map((img, i) => ["img", {loading: "lazy", src: img }],)
+		 [".home__slider", {style: mem(style)},
+				...images().map((img, i) => ["img", {src: img }],)
 			],
       [".home__shadow"]],
     [".home__work",
