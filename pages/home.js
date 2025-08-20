@@ -38,7 +38,7 @@ const Category = ({ name, link }) => {
 }
 
 export const Home = () => {
-	setTimeout(() => {if (!entrydone) entry_sequence(2500)}, 1000)
+	setTimeout(() => {if (!entrydone) entry_sequence(2900)}, 1000)
 
 	let entry_sequence = (off) => {
 		entrydone = true
@@ -51,9 +51,9 @@ export const Home = () => {
 	}
 
 	mounted(() => {
-		let off = entrydone ? 10 : 2500
+		let off = entrydone ? 10 : 2900
 		fade_in(".home__work", 1000, off)
-		fade_in(".home__landing", 1000, off)
+		fade_in(".home__landing", 1400, off)
 		fade_in(".home__shadow", 1800, off)
 		if (!entrydone) { entry_sequence(2500) }
 		// document.querySelectorAll("img").forEach(function (img) {
@@ -74,10 +74,12 @@ export const Home = () => {
 	let images = mem(() => [...found().map(e => e.original.url)])
 	let offset = sig(0)
 
-	setInterval(() => {
-		if (offset() == (found().length - 1) * -100) offset(0)
-		else offset(offset() - 100)
-	}, 5000)
+	setTimeout(() => {
+		setInterval(() => {
+			if (offset() == (found().length - 1) * -100) offset(0)
+			else offset(offset() - 100)
+		}, 5000)
+	}, 2500)
 
 	let style = () => `
 		transition: ${offset() == 0 ? 0 : 1200}ms ease-in-out;
