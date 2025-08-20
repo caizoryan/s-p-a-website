@@ -11,6 +11,31 @@ const fade_in = (selector, r = 300, offset = 10) => {
     );
   });
 };
+const fade_out = (selector, r = 300, offset = 10) => {
+  $$(selector).forEach((e) => {
+    e.style.transition = `none`
+    e.style.opacity = 1;
+		e.style.transform = "translateY(0px)"
+    setTimeout(() => {
+			e.style.transition = `all ${r}ms`
+			e.style.opacity = 0;
+			e.style.transform = "translateY(100px)"
+		}, offset);
+  });
+};
+const fade_out_stagger = (selector, r = 300, offset = 10, global_offset=10) => {
+  $$(selector).forEach((e,i) => {
+		let t = global_offset + (offset * (i+1))
+    e.style.transition = `none`
+    e.style.opacity = 1;
+		e.style.transform = "translateY(0px)"
+    setTimeout(() => {
+			e.style.transition = `all ${r}ms`
+			e.style.opacity = 0;
+			e.style.transform = "translateY(100px)"
+		}, t);
+  });
+};
 
 const fade_in_stagger = (selector, r = 300, offset = 10, global_offset = 10) => {
   $$(selector).forEach((e, i) => {
@@ -53,4 +78,4 @@ const sweep_down = (selector, r = 300, offset = 10, cb = () => null) => {
   });
 }
 
-export { fade_in, fade_in_stagger, sweep_out, sweep_down };
+export { fade_out_stagger,fade_out,fade_in, fade_in_stagger, sweep_out, sweep_down };
