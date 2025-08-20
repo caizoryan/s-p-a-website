@@ -1,6 +1,6 @@
 import { filter_map_data, sqft } from "./filters.js";
 import { sig, mut, mem, eff_on } from "../../tapri/monke.js";
-import { fade_in } from "../../utils/transitions.js";
+import { fade_in, fade_in_stagger } from "../../utils/transitions.js";
 
 export let filter_map = mut({ data: filter_map_data });
 
@@ -19,4 +19,4 @@ export let projects = sig([]);
 
 export let filtered_projects = mem(() => filters().reduce((acc, f) => f(acc), projects()));
 
-eff_on(filters, () => fade_in(".project"));
+eff_on(filters, () => fade_in_stagger(".project", 600, 250));

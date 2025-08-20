@@ -1,5 +1,5 @@
 import { mem, each, mounted, sig, eff_on } from "../tapri/monke.js";
-import { fade_in } from "../utils/transitions.js";
+import { fade_in, fade_in_stagger } from "../utils/transitions.js";
 import { easter_egg_click } from "../utils/colorschemes.js";
 import { filter_map, filtered_projects, filter_grouped, projects } from "./project/data.js";
 import { description_text } from "./project/description.js";
@@ -25,7 +25,10 @@ let imagefull = sig("false")
 
 // TODO: This mechanism is ghich pich, create an abstraction for it later
 // and maybe I'll find a nice way of generalizable way of doing this...
-eff_on(showing, () => showing() == "false" ? delay(() => selected(false)) : null)
+eff_on(showing, () => showing() == "false"
+			 ? delay(() => selected(false))
+			 : fade_in_stagger('.project-page__img', 1800, 250, 800)
+)
 
 const FilterButton = (f) => {
 	const toggle = () => {
@@ -126,6 +129,7 @@ const ProjectPage = () => {
 	})
 
 	mounted(() => {
+		
 			// document.querySelectorAll("img").forEach(function (img) {
 			// 		if (img.complete) {return;}
 			// 		img.style.visibility = "hidden";        
@@ -171,7 +175,8 @@ export const Projects = (p) => {
 			// 			img.style.visibility = "visible";
 			// 		};            
 			// });
-			fade_in(".projects")
+			fade_in(".projects", 400)
+			fade_in_stagger(".project", 600, 250)
 		}
 	);
 	projects(p.map(clean_project));

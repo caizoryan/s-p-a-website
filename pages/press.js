@@ -1,6 +1,6 @@
 import { mounted } from "../tapri/monke.js";
 import { hdom } from "../tapri/hdom/index.js";
-import { fade_in } from "../utils/transitions.js";
+import { fade_in, fade_in_stagger } from "../utils/transitions.js";
 
 const PressBox = (press) => {
   let { title, image } = press;
@@ -10,7 +10,9 @@ const PressBox = (press) => {
   const press_image_box = (i) => ["div.press__image", press_image(i)];
   const large = (p) => p.large.url;
 
-  mounted(() => fade_in(".press__box"));
+  mounted(() => {
+		fade_in_stagger(".press__box", 400, 150)
+	});
   return [".press__box", press_image_box(large(image))]
 };
 
