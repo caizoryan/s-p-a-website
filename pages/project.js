@@ -134,7 +134,8 @@ const ProjectPage = () => {
 
 	eff_on(index, () => {
 		if (!images() || index() == -1) return
-		selectedimage(images()[index()].image.original.url)
+		let img = window.innerWidth > 800 ? images()[index()].image.original.url : images()[index()].image.display.url
+		selectedimage(img)
 	})
 
 	keylisteners.push((e) => {
