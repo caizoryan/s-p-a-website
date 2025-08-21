@@ -90,9 +90,21 @@ const Project = ({ image, title, type, sub_type, images }) => {
 };
 
 const ImageFull = () => {
+	let loaded = sig(false)
+
+	eff_on(selectedimage, () => {
+		if (selectedimage() == 'false') loaded(false)
+		let src = selectedimage()
+		let image = new Image()
+		image.src = src
+		image.onload = () => {
+			if (selectedimage() == src) loaded(true)
+		}
+	})
+
 	return hdom(["div.full.centered",
 		["button.close", { onclick: () => imagefull("false") }, "x"],
-		["img.image-full", {src: selectedimage}]
+		["img.image-full", {src: selectedimage, style: mem(() => `opacity: ${loaded() ? 1 : .1}`)}]
 	])
 }
 
@@ -106,7 +118,12 @@ const ProjectPage = () => {
 	let images = mem(() => selected().images)
 	let index = sig(0)
 	let active = false
-	eff_on(imagefull, () => {if (showfullimage() == "false") active = false})
+	eff_on(imagefull, () => {
+		if (imagefull() == 'false') selectedimage('false')
+		if (showfullimage() == "false") {
+			active = false
+			selectedimage('false')}
+	})
 
 	let showfullimage = (i) => () => {
 		active=true;
@@ -117,15 +134,17 @@ const ProjectPage = () => {
 
 	eff_on(index, () => {
 		if (!images() || index() == -1) return
-		selectedimage(images()[index()].image.display.url)
+		selectedimage(images()[index()].image.original.url)
 	})
 
 	keylisteners.push((e) => {
 		if (active && e.key == "ArrowLeft") {
+			selectedimage('false')
 			index() == 0 ? index(images().length - 1) : index(index() - 1)
 		}
 
 		if (active && e.key == "ArrowRight"){
+			selectedimage('false')
 			if (!images()) index(0)
 			index() == images().length - 1 ? index(0) : index(index() + 1)
 		}
@@ -148,11 +167,6 @@ const ProjectPage = () => {
 	})
 
 	return hdom(["div.full",
-		["button.close", { onclick: () => {
-			index(-1);
-			fade_out_stagger('.project-page__img', 500, 50)
-			setTimeout(() => showing("false") ,500)
-		} }, "x"],
 		[".project-page__img-container",
 			[".project__title", title],
 			[".empty", ""],
@@ -162,6 +176,11 @@ const ProjectPage = () => {
 							{ src: src.image.display.url, onclick: showfullimage(i)}
 						 ]))],
 
+		["button.close", { onclick: () => {
+			index(-1);
+			fade_out_stagger('.project-page__img', 500, 50)
+			setTimeout(() => showing("false") ,500)
+		} }, "x"],
 		[".project-page", { activated: imagefull }, ImageFull],
 	])
 }
