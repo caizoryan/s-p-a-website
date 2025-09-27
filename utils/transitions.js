@@ -1,4 +1,5 @@
 import { $$ } from "../solid_monke/solid_monke.js";
+
 const fade_in = (selector, r = 300, offset = 10) => {
   $$(selector).forEach((e) => {
     e.style.transition = `none`
@@ -11,6 +12,7 @@ const fade_in = (selector, r = 300, offset = 10) => {
     );
   });
 };
+
 const fade_out = (selector, r = 300, offset = 10) => {
   $$(selector).forEach((e) => {
     e.style.transition = `none`
@@ -23,6 +25,7 @@ const fade_out = (selector, r = 300, offset = 10) => {
 		}, offset);
   });
 };
+
 const fade_out_stagger = (selector, r = 300, offset = 10, global_offset=10) => {
   $$(selector).forEach((e,i) => {
 		let t = global_offset + (offset * (i+1))

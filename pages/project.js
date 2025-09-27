@@ -104,7 +104,10 @@ const ImageFull = () => {
 
 	return hdom(["div.full.centered",
 		["button.close", { onclick: () => imagefull("false") }, "x"],
-		["img.image-full", {src: selectedimage, style: mem(() => `opacity: ${loaded() ? 1 : .1}`)}]
+			// add blinking
+		mem(() => selectedimage() == 'false'
+				? hdom(['p.loading', 'loading'])
+				: hdom(["img.image-full", {src: selectedimage, style: mem(() => `opacity: ${loaded() ? 1 : .1}`)}]))
 	])
 }
 
