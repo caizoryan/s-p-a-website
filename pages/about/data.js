@@ -4,7 +4,7 @@ data.services = ["Architecture", "Interior Design", "Project Management"];
 data.contact = [
 	"01, RPTS Rd, Laxminagar,",
 	"Nagpur, Maharashtra 440022",
-	"0712 224 0000",
+	"+91 712 223 8004",
 	"archspangp@gmail.com",
 ];
 
