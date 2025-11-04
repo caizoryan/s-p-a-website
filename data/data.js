@@ -7345,6 +7345,1255 @@ export const data = {
         "Commercial"
       ],
       "sqft": "150000"
+    },
+    {
+      "title": "— Brickhaus",
+      "type": [
+        "interior"
+      ],
+      "id": 4406833,
+      "images": [
+        {
+          "title": "dsc04017.jpg",
+          "image": {
+            "id": 40778147,
+            "filename": "a7670f5d2df378e8fef76604b40b96ed.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0Ny9vcmlnaW5hbF9hNzY3MGY1ZDJkZjM3OGU4ZmVmNzY2MDRiNDBiOTZlZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40778147/original_a7670f5d2df378e8fef76604b40b96ed.jpg?1762045342?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0Ny9vcmlnaW5hbF9hNzY3MGY1ZDJkZjM3OGU4ZmVmNzY2MDRiNDBiOTZlZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0Ny9vcmlnaW5hbF9hNzY3MGY1ZDJkZjM3OGU4ZmVmNzY2MDRiNDBiOTZlZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0Ny9vcmlnaW5hbF9hNzY3MGY1ZDJkZjM3OGU4ZmVmNzY2MDRiNDBiOTZlZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc04099-1.jpg",
+          "image": {
+            "id": 40778166,
+            "filename": "d728c21998f4707326ecb7ea31347d04.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE2Ni9vcmlnaW5hbF9kNzI4YzIxOTk4ZjQ3MDczMjZlY2I3ZWEzMTM0N2QwNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40778166/original_d728c21998f4707326ecb7ea31347d04.jpg?1762045402?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE2Ni9vcmlnaW5hbF9kNzI4YzIxOTk4ZjQ3MDczMjZlY2I3ZWEzMTM0N2QwNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE2Ni9vcmlnaW5hbF9kNzI4YzIxOTk4ZjQ3MDczMjZlY2I3ZWEzMTM0N2QwNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE2Ni9vcmlnaW5hbF9kNzI4YzIxOTk4ZjQ3MDczMjZlY2I3ZWEzMTM0N2QwNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc03991.jpg",
+          "image": {
+            "id": 40778152,
+            "filename": "982446c472e8ddfc17676e1356533954.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE1Mi9vcmlnaW5hbF85ODI0NDZjNDcyZThkZGZjMTc2NzZlMTM1NjUzMzk1NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40778152/original_982446c472e8ddfc17676e1356533954.jpg?1762045356?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE1Mi9vcmlnaW5hbF85ODI0NDZjNDcyZThkZGZjMTc2NzZlMTM1NjUzMzk1NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE1Mi9vcmlnaW5hbF85ODI0NDZjNDcyZThkZGZjMTc2NzZlMTM1NjUzMzk1NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE1Mi9vcmlnaW5hbF85ODI0NDZjNDcyZThkZGZjMTc2NzZlMTM1NjUzMzk1NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc04107.jpg",
+          "image": {
+            "id": 40778140,
+            "filename": "b98fba34d6dd7554a39bbcbc0ad66557.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0MC9vcmlnaW5hbF9iOThmYmEzNGQ2ZGQ3NTU0YTM5YmJjYmMwYWQ2NjU1Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40778140/original_b98fba34d6dd7554a39bbcbc0ad66557.jpg?1762045313?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0MC9vcmlnaW5hbF9iOThmYmEzNGQ2ZGQ3NTU0YTM5YmJjYmMwYWQ2NjU1Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0MC9vcmlnaW5hbF9iOThmYmEzNGQ2ZGQ3NTU0YTM5YmJjYmMwYWQ2NjU1Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0MC9vcmlnaW5hbF9iOThmYmEzNGQ2ZGQ3NTU0YTM5YmJjYmMwYWQ2NjU1Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc04091.jpg",
+          "image": {
+            "id": 40778143,
+            "filename": "82c373f326df6e034fcedec4c909b784.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0My9vcmlnaW5hbF84MmMzNzNmMzI2ZGY2ZTAzNGZjZWRlYzRjOTA5Yjc4NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40778143/original_82c373f326df6e034fcedec4c909b784.jpg?1762045324?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0My9vcmlnaW5hbF84MmMzNzNmMzI2ZGY2ZTAzNGZjZWRlYzRjOTA5Yjc4NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0My9vcmlnaW5hbF84MmMzNzNmMzI2ZGY2ZTAzNGZjZWRlYzRjOTA5Yjc4NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0My9vcmlnaW5hbF84MmMzNzNmMzI2ZGY2ZTAzNGZjZWRlYzRjOTA5Yjc4NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc03961.jpg",
+          "image": {
+            "id": 40778156,
+            "filename": "4c1047025a37069b678dd3a5c0359a29.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE1Ni9vcmlnaW5hbF80YzEwNDcwMjVhMzcwNjliNjc4ZGQzYTVjMDM1OWEyOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40778156/original_4c1047025a37069b678dd3a5c0359a29.jpg?1762045365?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE1Ni9vcmlnaW5hbF80YzEwNDcwMjVhMzcwNjliNjc4ZGQzYTVjMDM1OWEyOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE1Ni9vcmlnaW5hbF80YzEwNDcwMjVhMzcwNjliNjc4ZGQzYTVjMDM1OWEyOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE1Ni9vcmlnaW5hbF80YzEwNDcwMjVhMzcwNjliNjc4ZGQzYTVjMDM1OWEyOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc04084.jpg",
+          "image": {
+            "id": 40778144,
+            "filename": "f9c28938f42874687150d05856b3384a.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0NC9vcmlnaW5hbF9mOWMyODkzOGY0Mjg3NDY4NzE1MGQwNTg1NmIzMzg0YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40778144/original_f9c28938f42874687150d05856b3384a.jpg?1762045328?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0NC9vcmlnaW5hbF9mOWMyODkzOGY0Mjg3NDY4NzE1MGQwNTg1NmIzMzg0YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0NC9vcmlnaW5hbF9mOWMyODkzOGY0Mjg3NDY4NzE1MGQwNTg1NmIzMzg0YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODE0NC9vcmlnaW5hbF9mOWMyODkzOGY0Mjg3NDY4NzE1MGQwNTg1NmIzMzg0YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc04118.jpg",
+          "image": {
+            "id": 40778133,
+            "filename": "98b4fa43e1340ea13a15fc0ce72a9f7e.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODEzMy9vcmlnaW5hbF85OGI0ZmE0M2UxMzQwZWExM2ExNWZjMGNlNzJhOWY3ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40778133/original_98b4fa43e1340ea13a15fc0ce72a9f7e.jpg?1762045287?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODEzMy9vcmlnaW5hbF85OGI0ZmE0M2UxMzQwZWExM2ExNWZjMGNlNzJhOWY3ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODEzMy9vcmlnaW5hbF85OGI0ZmE0M2UxMzQwZWExM2ExNWZjMGNlNzJhOWY3ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODEzMy9vcmlnaW5hbF85OGI0ZmE0M2UxMzQwZWExM2ExNWZjMGNlNzJhOWY3ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc04131.jpg",
+          "image": {
+            "id": 40778128,
+            "filename": "e365e444c5715005be3c8923959b5e20.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODEyOC9vcmlnaW5hbF9lMzY1ZTQ0NGM1NzE1MDA1YmUzYzg5MjM5NTliNWUyMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40778128/original_e365e444c5715005be3c8923959b5e20.jpg?1762045268?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODEyOC9vcmlnaW5hbF9lMzY1ZTQ0NGM1NzE1MDA1YmUzYzg5MjM5NTliNWUyMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODEyOC9vcmlnaW5hbF9lMzY1ZTQ0NGM1NzE1MDA1YmUzYzg5MjM5NTliNWUyMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc3ODEyOC9vcmlnaW5hbF9lMzY1ZTQ0NGM1NzE1MDA1YmUzYzg5MjM5NTliNWUyMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        }
+      ],
+      "sub_type": [
+        "Hospitality"
+      ],
+      "sqft": "10000"
+    },
+    {
+      "title": "— Dr Arneja Farmhouse",
+      "type": [
+        "architecture",
+        "interior"
+      ],
+      "id": 4410943,
+      "images": [
+        {
+          "title": "dsc07547.jpg",
+          "image": {
+            "id": 40798563,
+            "filename": "249679104624b1f93b373f76ab679939.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU2My9vcmlnaW5hbF8yNDk2NzkxMDQ2MjRiMWY5M2IzNzNmNzZhYjY3OTkzOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798563/original_249679104624b1f93b373f76ab679939.jpg?1762138868?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU2My9vcmlnaW5hbF8yNDk2NzkxMDQ2MjRiMWY5M2IzNzNmNzZhYjY3OTkzOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU2My9vcmlnaW5hbF8yNDk2NzkxMDQ2MjRiMWY5M2IzNzNmNzZhYjY3OTkzOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU2My9vcmlnaW5hbF8yNDk2NzkxMDQ2MjRiMWY5M2IzNzNmNzZhYjY3OTkzOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07307.jpg",
+          "image": {
+            "id": 40798545,
+            "filename": "a6327c2e8fe38da9788a50ca9453e0de.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU0NS9vcmlnaW5hbF9hNjMyN2MyZThmZTM4ZGE5Nzg4YTUwY2E5NDUzZTBkZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798545/original_a6327c2e8fe38da9788a50ca9453e0de.jpg?1762138796?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU0NS9vcmlnaW5hbF9hNjMyN2MyZThmZTM4ZGE5Nzg4YTUwY2E5NDUzZTBkZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU0NS9vcmlnaW5hbF9hNjMyN2MyZThmZTM4ZGE5Nzg4YTUwY2E5NDUzZTBkZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU0NS9vcmlnaW5hbF9hNjMyN2MyZThmZTM4ZGE5Nzg4YTUwY2E5NDUzZTBkZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07500.jpg",
+          "image": {
+            "id": 40798509,
+            "filename": "8093390d9ea797b27483bb6e346f8121.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUwOS9vcmlnaW5hbF84MDkzMzkwZDllYTc5N2IyNzQ4M2JiNmUzNDZmODEyMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798509/original_8093390d9ea797b27483bb6e346f8121.jpg?1762138707?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUwOS9vcmlnaW5hbF84MDkzMzkwZDllYTc5N2IyNzQ4M2JiNmUzNDZmODEyMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUwOS9vcmlnaW5hbF84MDkzMzkwZDllYTc5N2IyNzQ4M2JiNmUzNDZmODEyMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUwOS9vcmlnaW5hbF84MDkzMzkwZDllYTc5N2IyNzQ4M2JiNmUzNDZmODEyMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07295.jpg",
+          "image": {
+            "id": 40798541,
+            "filename": "f56707948de53b187ed9db86ddaa7347.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU0MS9vcmlnaW5hbF9mNTY3MDc5NDhkZTUzYjE4N2VkOWRiODZkZGFhNzM0Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798541/original_f56707948de53b187ed9db86ddaa7347.jpg?1762138787?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU0MS9vcmlnaW5hbF9mNTY3MDc5NDhkZTUzYjE4N2VkOWRiODZkZGFhNzM0Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU0MS9vcmlnaW5hbF9mNTY3MDc5NDhkZTUzYjE4N2VkOWRiODZkZGFhNzM0Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU0MS9vcmlnaW5hbF9mNTY3MDc5NDhkZTUzYjE4N2VkOWRiODZkZGFhNzM0Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07184.jpg",
+          "image": {
+            "id": 40798517,
+            "filename": "76ffe0e51f493d252f5438b889a62350.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUxNy9vcmlnaW5hbF83NmZmZTBlNTFmNDkzZDI1MmY1NDM4Yjg4OWE2MjM1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798517/original_76ffe0e51f493d252f5438b889a62350.jpg?1762138725?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUxNy9vcmlnaW5hbF83NmZmZTBlNTFmNDkzZDI1MmY1NDM4Yjg4OWE2MjM1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUxNy9vcmlnaW5hbF83NmZmZTBlNTFmNDkzZDI1MmY1NDM4Yjg4OWE2MjM1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUxNy9vcmlnaW5hbF83NmZmZTBlNTFmNDkzZDI1MmY1NDM4Yjg4OWE2MjM1MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07189.jpg",
+          "image": {
+            "id": 40798523,
+            "filename": "4145970aca557c1a17ebf36216ab9dce.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUyMy9vcmlnaW5hbF80MTQ1OTcwYWNhNTU3YzFhMTdlYmYzNjIxNmFiOWRjZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798523/original_4145970aca557c1a17ebf36216ab9dce.jpg?1762138739?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUyMy9vcmlnaW5hbF80MTQ1OTcwYWNhNTU3YzFhMTdlYmYzNjIxNmFiOWRjZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUyMy9vcmlnaW5hbF80MTQ1OTcwYWNhNTU3YzFhMTdlYmYzNjIxNmFiOWRjZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUyMy9vcmlnaW5hbF80MTQ1OTcwYWNhNTU3YzFhMTdlYmYzNjIxNmFiOWRjZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07217.jpg",
+          "image": {
+            "id": 40798530,
+            "filename": "e40aa18392f648a1cdbf259cb53a5507.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUzMC9vcmlnaW5hbF9lNDBhYTE4MzkyZjY0OGExY2RiZjI1OWNiNTNhNTUwNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798530/original_e40aa18392f648a1cdbf259cb53a5507.jpg?1762138758?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUzMC9vcmlnaW5hbF9lNDBhYTE4MzkyZjY0OGExY2RiZjI1OWNiNTNhNTUwNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUzMC9vcmlnaW5hbF9lNDBhYTE4MzkyZjY0OGExY2RiZjI1OWNiNTNhNTUwNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUzMC9vcmlnaW5hbF9lNDBhYTE4MzkyZjY0OGExY2RiZjI1OWNiNTNhNTUwNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07285.jpg",
+          "image": {
+            "id": 40798536,
+            "filename": "b2ec5e7837ab02a91c3904c16e0fef4e.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUzNi9vcmlnaW5hbF9iMmVjNWU3ODM3YWIwMmE5MWMzOTA0YzE2ZTBmZWY0ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798536/original_b2ec5e7837ab02a91c3904c16e0fef4e.jpg?1762138776?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUzNi9vcmlnaW5hbF9iMmVjNWU3ODM3YWIwMmE5MWMzOTA0YzE2ZTBmZWY0ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUzNi9vcmlnaW5hbF9iMmVjNWU3ODM3YWIwMmE5MWMzOTA0YzE2ZTBmZWY0ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUzNi9vcmlnaW5hbF9iMmVjNWU3ODM3YWIwMmE5MWMzOTA0YzE2ZTBmZWY0ZS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07257.jpg",
+          "image": {
+            "id": 40798537,
+            "filename": "648731bf7aa572a162b4ef49733de39b.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUzNy9vcmlnaW5hbF82NDg3MzFiZjdhYTU3MmExNjJiNGVmNDk3MzNkZTM5Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798537/original_648731bf7aa572a162b4ef49733de39b.jpg?1762138782?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUzNy9vcmlnaW5hbF82NDg3MzFiZjdhYTU3MmExNjJiNGVmNDk3MzNkZTM5Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUzNy9vcmlnaW5hbF82NDg3MzFiZjdhYTU3MmExNjJiNGVmNDk3MzNkZTM5Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUzNy9vcmlnaW5hbF82NDg3MzFiZjdhYTU3MmExNjJiNGVmNDk3MzNkZTM5Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07490.jpg",
+          "image": {
+            "id": 40798521,
+            "filename": "d9ae7fc534009ec9a4e624dc9431b0ab.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUyMS9vcmlnaW5hbF9kOWFlN2ZjNTM0MDA5ZWM5YTRlNjI0ZGM5NDMxYjBhYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798521/original_d9ae7fc534009ec9a4e624dc9431b0ab.jpg?1762138731?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUyMS9vcmlnaW5hbF9kOWFlN2ZjNTM0MDA5ZWM5YTRlNjI0ZGM5NDMxYjBhYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUyMS9vcmlnaW5hbF9kOWFlN2ZjNTM0MDA5ZWM5YTRlNjI0ZGM5NDMxYjBhYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUyMS9vcmlnaW5hbF9kOWFlN2ZjNTM0MDA5ZWM5YTRlNjI0ZGM5NDMxYjBhYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07310.jpg",
+          "image": {
+            "id": 40798549,
+            "filename": "70ae081793c6aef8017645fb8b968a82.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU0OS9vcmlnaW5hbF83MGFlMDgxNzkzYzZhZWY4MDE3NjQ1ZmI4Yjk2OGE4Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798549/original_70ae081793c6aef8017645fb8b968a82.jpg?1762138801?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU0OS9vcmlnaW5hbF83MGFlMDgxNzkzYzZhZWY4MDE3NjQ1ZmI4Yjk2OGE4Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU0OS9vcmlnaW5hbF83MGFlMDgxNzkzYzZhZWY4MDE3NjQ1ZmI4Yjk2OGE4Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU0OS9vcmlnaW5hbF83MGFlMDgxNzkzYzZhZWY4MDE3NjQ1ZmI4Yjk2OGE4Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07316.jpg",
+          "image": {
+            "id": 40798550,
+            "filename": "cd74f0fa14ef5e85558ad3274865db9b.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU1MC9vcmlnaW5hbF9jZDc0ZjBmYTE0ZWY1ZTg1NTU4YWQzMjc0ODY1ZGI5Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798550/original_cd74f0fa14ef5e85558ad3274865db9b.jpg?1762138815?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU1MC9vcmlnaW5hbF9jZDc0ZjBmYTE0ZWY1ZTg1NTU4YWQzMjc0ODY1ZGI5Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU1MC9vcmlnaW5hbF9jZDc0ZjBmYTE0ZWY1ZTg1NTU4YWQzMjc0ODY1ZGI5Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU1MC9vcmlnaW5hbF9jZDc0ZjBmYTE0ZWY1ZTg1NTU4YWQzMjc0ODY1ZGI5Yi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07441.jpg",
+          "image": {
+            "id": 40798558,
+            "filename": "40f9eb8cb6b23bdab6a094a762f16494.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU1OC9vcmlnaW5hbF80MGY5ZWI4Y2I2YjIzYmRhYjZhMDk0YTc2MmYxNjQ5NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798558/original_40f9eb8cb6b23bdab6a094a762f16494.jpg?1762138846?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU1OC9vcmlnaW5hbF80MGY5ZWI4Y2I2YjIzYmRhYjZhMDk0YTc2MmYxNjQ5NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU1OC9vcmlnaW5hbF80MGY5ZWI4Y2I2YjIzYmRhYjZhMDk0YTc2MmYxNjQ5NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU1OC9vcmlnaW5hbF80MGY5ZWI4Y2I2YjIzYmRhYjZhMDk0YTc2MmYxNjQ5NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07467.jpg",
+          "image": {
+            "id": 40798559,
+            "filename": "9c13862ce66deb8889d8894410cec379.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU1OS9vcmlnaW5hbF85YzEzODYyY2U2NmRlYjg4ODlkODg5NDQxMGNlYzM3OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798559/original_9c13862ce66deb8889d8894410cec379.jpg?1762138858?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU1OS9vcmlnaW5hbF85YzEzODYyY2U2NmRlYjg4ODlkODg5NDQxMGNlYzM3OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU1OS9vcmlnaW5hbF85YzEzODYyY2U2NmRlYjg4ODlkODg5NDQxMGNlYzM3OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODU1OS9vcmlnaW5hbF85YzEzODYyY2U2NmRlYjg4ODlkODg5NDQxMGNlYzM3OS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc07192.jpg",
+          "image": {
+            "id": 40798527,
+            "filename": "040eed1f1f80faf07208a887ea44aeca.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUyNy9vcmlnaW5hbF8wNDBlZWQxZjFmODBmYWYwNzIwOGE4ODdlYTQ0YWVjYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40798527/original_040eed1f1f80faf07208a887ea44aeca.jpg?1762138753?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUyNy9vcmlnaW5hbF8wNDBlZWQxZjFmODBmYWYwNzIwOGE4ODdlYTQ0YWVjYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUyNy9vcmlnaW5hbF8wNDBlZWQxZjFmODBmYWYwNzIwOGE4ODdlYTQ0YWVjYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5ODUyNy9vcmlnaW5hbF8wNDBlZWQxZjFmODBmYWYwNzIwOGE4ODdlYTQ0YWVjYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        }
+      ],
+      "sub_type": [
+        "Residential"
+      ],
+      "sqft": "4000"
+    },
+    {
+      "title": "— Dr Jeswani Residence",
+      "type": [
+        "interior",
+        "architecture"
+      ],
+      "id": 4411224,
+      "images": [
+        {
+          "title": "dsc00077.jpg",
+          "image": {
+            "id": 40799689,
+            "filename": "3858e296274ad11be49d9bdad4cd2871.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4OS9vcmlnaW5hbF8zODU4ZTI5NjI3NGFkMTFiZTQ5ZDliZGFkNGNkMjg3MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799689/original_3858e296274ad11be49d9bdad4cd2871.jpg?1762143859?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4OS9vcmlnaW5hbF8zODU4ZTI5NjI3NGFkMTFiZTQ5ZDliZGFkNGNkMjg3MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4OS9vcmlnaW5hbF8zODU4ZTI5NjI3NGFkMTFiZTQ5ZDliZGFkNGNkMjg3MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4OS9vcmlnaW5hbF8zODU4ZTI5NjI3NGFkMTFiZTQ5ZDliZGFkNGNkMjg3MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00101.jpg",
+          "image": {
+            "id": 40799687,
+            "filename": "9ee8b42abbd379625fecc74286a8d077.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4Ny9vcmlnaW5hbF85ZWU4YjQyYWJiZDM3OTYyNWZlY2M3NDI4NmE4ZDA3Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799687/original_9ee8b42abbd379625fecc74286a8d077.jpg?1762143853?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4Ny9vcmlnaW5hbF85ZWU4YjQyYWJiZDM3OTYyNWZlY2M3NDI4NmE4ZDA3Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4Ny9vcmlnaW5hbF85ZWU4YjQyYWJiZDM3OTYyNWZlY2M3NDI4NmE4ZDA3Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4Ny9vcmlnaW5hbF85ZWU4YjQyYWJiZDM3OTYyNWZlY2M3NDI4NmE4ZDA3Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00198.jpg",
+          "image": {
+            "id": 40799700,
+            "filename": "e8c74f4c777c30321c961f09286e6176.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcwMC9vcmlnaW5hbF9lOGM3NGY0Yzc3N2MzMDMyMWM5NjFmMDkyODZlNjE3Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799700/original_e8c74f4c777c30321c961f09286e6176.jpg?1762143910?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcwMC9vcmlnaW5hbF9lOGM3NGY0Yzc3N2MzMDMyMWM5NjFmMDkyODZlNjE3Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcwMC9vcmlnaW5hbF9lOGM3NGY0Yzc3N2MzMDMyMWM5NjFmMDkyODZlNjE3Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcwMC9vcmlnaW5hbF9lOGM3NGY0Yzc3N2MzMDMyMWM5NjFmMDkyODZlNjE3Ni5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00193.jpg",
+          "image": {
+            "id": 40799719,
+            "filename": "24accb18273faa81ab328c52365aec8f.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcxOS9vcmlnaW5hbF8yNGFjY2IxODI3M2ZhYTgxYWIzMjhjNTIzNjVhZWM4Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799719/original_24accb18273faa81ab328c52365aec8f.jpg?1762143997?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcxOS9vcmlnaW5hbF8yNGFjY2IxODI3M2ZhYTgxYWIzMjhjNTIzNjVhZWM4Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcxOS9vcmlnaW5hbF8yNGFjY2IxODI3M2ZhYTgxYWIzMjhjNTIzNjVhZWM4Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcxOS9vcmlnaW5hbF8yNGFjY2IxODI3M2ZhYTgxYWIzMjhjNTIzNjVhZWM4Zi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00284.jpg",
+          "image": {
+            "id": 40799705,
+            "filename": "aad5e54abdfecaee276944fff031c68a.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcwNS9vcmlnaW5hbF9hYWQ1ZTU0YWJkZmVjYWVlMjc2OTQ0ZmZmMDMxYzY4YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799705/original_aad5e54abdfecaee276944fff031c68a.jpg?1762143936?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcwNS9vcmlnaW5hbF9hYWQ1ZTU0YWJkZmVjYWVlMjc2OTQ0ZmZmMDMxYzY4YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcwNS9vcmlnaW5hbF9hYWQ1ZTU0YWJkZmVjYWVlMjc2OTQ0ZmZmMDMxYzY4YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcwNS9vcmlnaW5hbF9hYWQ1ZTU0YWJkZmVjYWVlMjc2OTQ0ZmZmMDMxYzY4YS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00010.jpg",
+          "image": {
+            "id": 40799668,
+            "filename": "6b02200a167731b621c2219a0d0c0f94.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY2OC9vcmlnaW5hbF82YjAyMjAwYTE2NzczMWI2MjFjMjIxOWEwZDBjMGY5NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799668/original_6b02200a167731b621c2219a0d0c0f94.jpg?1762143790?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY2OC9vcmlnaW5hbF82YjAyMjAwYTE2NzczMWI2MjFjMjIxOWEwZDBjMGY5NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY2OC9vcmlnaW5hbF82YjAyMjAwYTE2NzczMWI2MjFjMjIxOWEwZDBjMGY5NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY2OC9vcmlnaW5hbF82YjAyMjAwYTE2NzczMWI2MjFjMjIxOWEwZDBjMGY5NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00027-1.jpg",
+          "image": {
+            "id": 40799669,
+            "filename": "e815924381ca5dca841eb63f058c95f0.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY2OS9vcmlnaW5hbF9lODE1OTI0MzgxY2E1ZGNhODQxZWI2M2YwNThjOTVmMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799669/original_e815924381ca5dca841eb63f058c95f0.jpg?1762143791?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY2OS9vcmlnaW5hbF9lODE1OTI0MzgxY2E1ZGNhODQxZWI2M2YwNThjOTVmMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY2OS9vcmlnaW5hbF9lODE1OTI0MzgxY2E1ZGNhODQxZWI2M2YwNThjOTVmMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY2OS9vcmlnaW5hbF9lODE1OTI0MzgxY2E1ZGNhODQxZWI2M2YwNThjOTVmMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00019.jpg",
+          "image": {
+            "id": 40799670,
+            "filename": "e2093015c14d77d3bc7746e8bcd26dc5.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3MC9vcmlnaW5hbF9lMjA5MzAxNWMxNGQ3N2QzYmM3NzQ2ZThiY2QyNmRjNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799670/original_e2093015c14d77d3bc7746e8bcd26dc5.jpg?1762143795?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3MC9vcmlnaW5hbF9lMjA5MzAxNWMxNGQ3N2QzYmM3NzQ2ZThiY2QyNmRjNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3MC9vcmlnaW5hbF9lMjA5MzAxNWMxNGQ3N2QzYmM3NzQ2ZThiY2QyNmRjNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3MC9vcmlnaW5hbF9lMjA5MzAxNWMxNGQ3N2QzYmM3NzQ2ZThiY2QyNmRjNS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00029-1.jpg",
+          "image": {
+            "id": 40799671,
+            "filename": "19560696753778a57ebc2eb4ac286343.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3MS9vcmlnaW5hbF8xOTU2MDY5Njc1Mzc3OGE1N2ViYzJlYjRhYzI4NjM0My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799671/original_19560696753778a57ebc2eb4ac286343.jpg?1762143796?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3MS9vcmlnaW5hbF8xOTU2MDY5Njc1Mzc3OGE1N2ViYzJlYjRhYzI4NjM0My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3MS9vcmlnaW5hbF8xOTU2MDY5Njc1Mzc3OGE1N2ViYzJlYjRhYzI4NjM0My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3MS9vcmlnaW5hbF8xOTU2MDY5Njc1Mzc3OGE1N2ViYzJlYjRhYzI4NjM0My5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00062.jpg",
+          "image": {
+            "id": 40799673,
+            "filename": "13c7680b94b0ea146f3df3acf048ec77.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3My9vcmlnaW5hbF8xM2M3NjgwYjk0YjBlYTE0NmYzZGYzYWNmMDQ4ZWM3Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799673/original_13c7680b94b0ea146f3df3acf048ec77.jpg?1762143816?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3My9vcmlnaW5hbF8xM2M3NjgwYjk0YjBlYTE0NmYzZGYzYWNmMDQ4ZWM3Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3My9vcmlnaW5hbF8xM2M3NjgwYjk0YjBlYTE0NmYzZGYzYWNmMDQ4ZWM3Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3My9vcmlnaW5hbF8xM2M3NjgwYjk0YjBlYTE0NmYzZGYzYWNmMDQ4ZWM3Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00055.jpg",
+          "image": {
+            "id": 40799677,
+            "filename": "f933c00cf41ca90ce4d9a1ffc2046000.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3Ny9vcmlnaW5hbF9mOTMzYzAwY2Y0MWNhOTBjZTRkOWExZmZjMjA0NjAwMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799677/original_f933c00cf41ca90ce4d9a1ffc2046000.jpg?1762143821?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3Ny9vcmlnaW5hbF9mOTMzYzAwY2Y0MWNhOTBjZTRkOWExZmZjMjA0NjAwMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3Ny9vcmlnaW5hbF9mOTMzYzAwY2Y0MWNhOTBjZTRkOWExZmZjMjA0NjAwMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY3Ny9vcmlnaW5hbF9mOTMzYzAwY2Y0MWNhOTBjZTRkOWExZmZjMjA0NjAwMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00066.jpg",
+          "image": {
+            "id": 40799680,
+            "filename": "9df1750bb6cf1e34f5791ddd0b5ea4d9.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4MC9vcmlnaW5hbF85ZGYxNzUwYmI2Y2YxZTM0ZjU3OTFkZGQwYjVlYTRkOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799680/original_9df1750bb6cf1e34f5791ddd0b5ea4d9.jpg?1762143831?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4MC9vcmlnaW5hbF85ZGYxNzUwYmI2Y2YxZTM0ZjU3OTFkZGQwYjVlYTRkOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4MC9vcmlnaW5hbF85ZGYxNzUwYmI2Y2YxZTM0ZjU3OTFkZGQwYjVlYTRkOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4MC9vcmlnaW5hbF85ZGYxNzUwYmI2Y2YxZTM0ZjU3OTFkZGQwYjVlYTRkOS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00035.jpg",
+          "image": {
+            "id": 40799681,
+            "filename": "d170dbc3678c4af8f59eea14a34afe90.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4MS9vcmlnaW5hbF9kMTcwZGJjMzY3OGM0YWY4ZjU5ZWVhMTRhMzRhZmU5MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799681/original_d170dbc3678c4af8f59eea14a34afe90.jpg?1762143833?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4MS9vcmlnaW5hbF9kMTcwZGJjMzY3OGM0YWY4ZjU5ZWVhMTRhMzRhZmU5MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4MS9vcmlnaW5hbF9kMTcwZGJjMzY3OGM0YWY4ZjU5ZWVhMTRhMzRhZmU5MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4MS9vcmlnaW5hbF9kMTcwZGJjMzY3OGM0YWY4ZjU5ZWVhMTRhMzRhZmU5MC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00059.jpg",
+          "image": {
+            "id": 40799684,
+            "filename": "8a71be50bb2ac390aafba0c900a533ed.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4NC9vcmlnaW5hbF84YTcxYmU1MGJiMmFjMzkwYWFmYmEwYzkwMGE1MzNlZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799684/original_8a71be50bb2ac390aafba0c900a533ed.jpg?1762143840?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4NC9vcmlnaW5hbF84YTcxYmU1MGJiMmFjMzkwYWFmYmEwYzkwMGE1MzNlZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4NC9vcmlnaW5hbF84YTcxYmU1MGJiMmFjMzkwYWFmYmEwYzkwMGE1MzNlZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4NC9vcmlnaW5hbF84YTcxYmU1MGJiMmFjMzkwYWFmYmEwYzkwMGE1MzNlZC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00074-1.jpg",
+          "image": {
+            "id": 40799685,
+            "filename": "d5274b3ed5df4dbbc6f76a8c2088781b.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4NS9vcmlnaW5hbF9kNTI3NGIzZWQ1ZGY0ZGJiYzZmNzZhOGMyMDg4NzgxYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799685/original_d5274b3ed5df4dbbc6f76a8c2088781b.jpg?1762143843?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4NS9vcmlnaW5hbF9kNTI3NGIzZWQ1ZGY0ZGJiYzZmNzZhOGMyMDg4NzgxYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4NS9vcmlnaW5hbF9kNTI3NGIzZWQ1ZGY0ZGJiYzZmNzZhOGMyMDg4NzgxYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY4NS9vcmlnaW5hbF9kNTI3NGIzZWQ1ZGY0ZGJiYzZmNzZhOGMyMDg4NzgxYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00071.jpg",
+          "image": {
+            "id": 40799690,
+            "filename": "22977696b8a0e0281f4b1612d01116b1.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5MC9vcmlnaW5hbF8yMjk3NzY5NmI4YTBlMDI4MWY0YjE2MTJkMDExMTZiMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799690/original_22977696b8a0e0281f4b1612d01116b1.jpg?1762143866?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5MC9vcmlnaW5hbF8yMjk3NzY5NmI4YTBlMDI4MWY0YjE2MTJkMDExMTZiMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5MC9vcmlnaW5hbF8yMjk3NzY5NmI4YTBlMDI4MWY0YjE2MTJkMDExMTZiMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5MC9vcmlnaW5hbF8yMjk3NzY5NmI4YTBlMDI4MWY0YjE2MTJkMDExMTZiMS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00124.jpg",
+          "image": {
+            "id": 40799692,
+            "filename": "ea4b9595dbe5073759318cdd40f05daa.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5Mi9vcmlnaW5hbF9lYTRiOTU5NWRiZTUwNzM3NTkzMThjZGQ0MGYwNWRhYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799692/original_ea4b9595dbe5073759318cdd40f05daa.jpg?1762143882?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5Mi9vcmlnaW5hbF9lYTRiOTU5NWRiZTUwNzM3NTkzMThjZGQ0MGYwNWRhYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5Mi9vcmlnaW5hbF9lYTRiOTU5NWRiZTUwNzM3NTkzMThjZGQ0MGYwNWRhYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5Mi9vcmlnaW5hbF9lYTRiOTU5NWRiZTUwNzM3NTkzMThjZGQ0MGYwNWRhYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00164.jpg",
+          "image": {
+            "id": 40799694,
+            "filename": "d972c73ba96617422c879f194ea1e6b7.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5NC9vcmlnaW5hbF9kOTcyYzczYmE5NjYxNzQyMmM4NzlmMTk0ZWExZTZiNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799694/original_d972c73ba96617422c879f194ea1e6b7.jpg?1762143889?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5NC9vcmlnaW5hbF9kOTcyYzczYmE5NjYxNzQyMmM4NzlmMTk0ZWExZTZiNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5NC9vcmlnaW5hbF9kOTcyYzczYmE5NjYxNzQyMmM4NzlmMTk0ZWExZTZiNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5NC9vcmlnaW5hbF9kOTcyYzczYmE5NjYxNzQyMmM4NzlmMTk0ZWExZTZiNy5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00169.jpg",
+          "image": {
+            "id": 40799695,
+            "filename": "e8344b85eb4365bbf566c4519ef2992a.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5NS9vcmlnaW5hbF9lODM0NGI4NWViNDM2NWJiZjU2NmM0NTE5ZWYyOTkyYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799695/original_e8344b85eb4365bbf566c4519ef2992a.jpg?1762143894?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5NS9vcmlnaW5hbF9lODM0NGI4NWViNDM2NWJiZjU2NmM0NTE5ZWYyOTkyYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5NS9vcmlnaW5hbF9lODM0NGI4NWViNDM2NWJiZjU2NmM0NTE5ZWYyOTkyYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5NS9vcmlnaW5hbF9lODM0NGI4NWViNDM2NWJiZjU2NmM0NTE5ZWYyOTkyYS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00204.jpg",
+          "image": {
+            "id": 40799699,
+            "filename": "c446f0d72b892c669e8ad1b445b533e2.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5OS9vcmlnaW5hbF9jNDQ2ZjBkNzJiODkyYzY2OWU4YWQxYjQ0NWI1MzNlMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799699/original_c446f0d72b892c669e8ad1b445b533e2.jpg?1762143905?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5OS9vcmlnaW5hbF9jNDQ2ZjBkNzJiODkyYzY2OWU4YWQxYjQ0NWI1MzNlMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5OS9vcmlnaW5hbF9jNDQ2ZjBkNzJiODkyYzY2OWU4YWQxYjQ0NWI1MzNlMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTY5OS9vcmlnaW5hbF9jNDQ2ZjBkNzJiODkyYzY2OWU4YWQxYjQ0NWI1MzNlMi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "dsc00227.jpg",
+          "image": {
+            "id": 40799703,
+            "filename": "12416a0aed25975db312b5b55ded6152.jpg",
+            "content_type": "image/jpeg",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcwMy9vcmlnaW5hbF8xMjQxNmEwYWVkMjU5NzVkYjMxMmI1YjU1ZGVkNjE1Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40799703/original_12416a0aed25975db312b5b55ded6152.jpg?1762143923?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcwMy9vcmlnaW5hbF8xMjQxNmEwYWVkMjU5NzVkYjMxMmI1YjU1ZGVkNjE1Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcwMy9vcmlnaW5hbF8xMjQxNmEwYWVkMjU5NzVkYjMxMmI1YjU1ZGVkNjE1Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDc5OTcwMy9vcmlnaW5hbF8xMjQxNmEwYWVkMjU5NzVkYjMxMmI1YjU1ZGVkNjE1Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        }
+      ],
+      "sub_type": [
+        "Residential"
+      ],
+      "sqft": "4000"
+    },
+    {
+      "title": "— PHC Centre",
+      "type": [
+        "architecture"
+      ],
+      "id": 4416171,
+      "images": [
+        {
+          "title": "enscape_2025-05-14-11-53-56.png",
+          "image": {
+            "id": 40829349,
+            "filename": "e9bcfeb5f31b5b0937027b8ba3a98846.png",
+            "content_type": "image/png",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM0OS9vcmlnaW5hbF9lOWJjZmViNWYzMWI1YjA5MzcwMjdiOGJhM2E5ODg0Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40829349/original_e9bcfeb5f31b5b0937027b8ba3a98846.png?1762229716?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM0OS9vcmlnaW5hbF9lOWJjZmViNWYzMWI1YjA5MzcwMjdiOGJhM2E5ODg0Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM0OS9vcmlnaW5hbF9lOWJjZmViNWYzMWI1YjA5MzcwMjdiOGJhM2E5ODg0Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM0OS9vcmlnaW5hbF9lOWJjZmViNWYzMWI1YjA5MzcwMjdiOGJhM2E5ODg0Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "enscape_2025-05-14-12-12-12.png",
+          "image": {
+            "id": 40829351,
+            "filename": "fa2e3506d0343c68452deb4d6cacd5ad.png",
+            "content_type": "image/png",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1MS9vcmlnaW5hbF9mYTJlMzUwNmQwMzQzYzY4NDUyZGViNGQ2Y2FjZDVhZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40829351/original_fa2e3506d0343c68452deb4d6cacd5ad.png?1762229717?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1MS9vcmlnaW5hbF9mYTJlMzUwNmQwMzQzYzY4NDUyZGViNGQ2Y2FjZDVhZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1MS9vcmlnaW5hbF9mYTJlMzUwNmQwMzQzYzY4NDUyZGViNGQ2Y2FjZDVhZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1MS9vcmlnaW5hbF9mYTJlMzUwNmQwMzQzYzY4NDUyZGViNGQ2Y2FjZDVhZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "enscape_2025-05-14-11-54-42.png",
+          "image": {
+            "id": 40829350,
+            "filename": "bb0e787ec8d16d9b85d92787f26afc48.png",
+            "content_type": "image/png",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1MC9vcmlnaW5hbF9iYjBlNzg3ZWM4ZDE2ZDliODVkOTI3ODdmMjZhZmM0OC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40829350/original_bb0e787ec8d16d9b85d92787f26afc48.png?1762229717?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1MC9vcmlnaW5hbF9iYjBlNzg3ZWM4ZDE2ZDliODVkOTI3ODdmMjZhZmM0OC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1MC9vcmlnaW5hbF9iYjBlNzg3ZWM4ZDE2ZDliODVkOTI3ODdmMjZhZmM0OC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1MC9vcmlnaW5hbF9iYjBlNzg3ZWM4ZDE2ZDliODVkOTI3ODdmMjZhZmM0OC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "enscape_2025-05-14-11-55-12.png",
+          "image": {
+            "id": 40829352,
+            "filename": "405fe2a6d0d0c0000d29d60450573607.png",
+            "content_type": "image/png",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1Mi9vcmlnaW5hbF80MDVmZTJhNmQwZDBjMDAwMGQyOWQ2MDQ1MDU3MzYwNy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40829352/original_405fe2a6d0d0c0000d29d60450573607.png?1762229717?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1Mi9vcmlnaW5hbF80MDVmZTJhNmQwZDBjMDAwMGQyOWQ2MDQ1MDU3MzYwNy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1Mi9vcmlnaW5hbF80MDVmZTJhNmQwZDBjMDAwMGQyOWQ2MDQ1MDU3MzYwNy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1Mi9vcmlnaW5hbF80MDVmZTJhNmQwZDBjMDAwMGQyOWQ2MDQ1MDU3MzYwNy5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "enscape_2025-05-14-11-52-57.png",
+          "image": {
+            "id": 40829355,
+            "filename": "c4ab0d6c2f093d8197f8d1624f6e5e76.png",
+            "content_type": "image/png",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1NS9vcmlnaW5hbF9jNGFiMGQ2YzJmMDkzZDgxOTdmOGQxNjI0ZjZlNWU3Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40829355/original_c4ab0d6c2f093d8197f8d1624f6e5e76.png?1762229719?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1NS9vcmlnaW5hbF9jNGFiMGQ2YzJmMDkzZDgxOTdmOGQxNjI0ZjZlNWU3Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1NS9vcmlnaW5hbF9jNGFiMGQ2YzJmMDkzZDgxOTdmOGQxNjI0ZjZlNWU3Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1NS9vcmlnaW5hbF9jNGFiMGQ2YzJmMDkzZDgxOTdmOGQxNjI0ZjZlNWU3Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "enscape_2025-05-14-12-13-35.png",
+          "image": {
+            "id": 40829353,
+            "filename": "45238c55250409116e1bf97b03eac9ea.png",
+            "content_type": "image/png",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1My9vcmlnaW5hbF80NTIzOGM1NTI1MDQwOTExNmUxYmY5N2IwM2VhYzllYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40829353/original_45238c55250409116e1bf97b03eac9ea.png?1762229717?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1My9vcmlnaW5hbF80NTIzOGM1NTI1MDQwOTExNmUxYmY5N2IwM2VhYzllYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1My9vcmlnaW5hbF80NTIzOGM1NTI1MDQwOTExNmUxYmY5N2IwM2VhYzllYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1My9vcmlnaW5hbF80NTIzOGM1NTI1MDQwOTExNmUxYmY5N2IwM2VhYzllYS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        },
+        {
+          "title": "enscape_2025-05-14-12-15-50.png",
+          "image": {
+            "id": 40829354,
+            "filename": "16afdd62d1ec653558a60a035ff9346f.png",
+            "content_type": "image/png",
+            "large": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1NC9vcmlnaW5hbF8xNmFmZGQ2MmQxZWM2NTM1NThhNjBhMDM1ZmY5MzQ2Zi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjE4MDAsImhlaWdodCI6MTgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "original": {
+              "url": "https://d2w9rnfcy7mm78.cloudfront.net/40829354/original_16afdd62d1ec653558a60a035ff9346f.png?1762229717?bc=0"
+            },
+            "display": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1NC9vcmlnaW5hbF8xNmFmZGQ2MmQxZWM2NTM1NThhNjBhMDM1ZmY5MzQ2Zi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjEyMDAsImhlaWdodCI6MTIwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfSwid2VicCI6eyJxdWFsaXR5Ijo3NX0sImpwZWciOnsicXVhbGl0eSI6NzV9LCJyb3RhdGUiOm51bGx9fQ==?bc=0"
+            },
+            "thumb": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1NC9vcmlnaW5hbF8xNmFmZGQ2MmQxZWM2NTM1NThhNjBhMDM1ZmY5MzQ2Zi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQwMCwiaGVpZ2h0Ijo0MDAsImZpdCI6Imluc2lkZSIsIndpdGhvdXRFbmxhcmdlbWVudCI6dHJ1ZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            },
+            "square": {
+              "url": "https://images.are.na/eyJidWNrZXQiOiJhcmVuYV9pbWFnZXMiLCJrZXkiOiI0MDgyOTM1NC9vcmlnaW5hbF8xNmFmZGQ2MmQxZWM2NTM1NThhNjBhMDM1ZmY5MzQ2Zi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjQ0MCwiaGVpZ2h0Ijo0NDAsImZpdCI6ImNvdmVyIiwid2l0aG91dEVubGFyZ2VtZW50IjpmYWxzZX0sIndlYnAiOnsicXVhbGl0eSI6NzV9LCJqcGVnIjp7InF1YWxpdHkiOjc1fSwicm90YXRlIjpudWxsfX0=?bc=0"
+            }
+          }
+        }
+      ],
+      "sub_type": [
+        "hospital"
+      ]
     }
   ],
   "press": [
@@ -7727,9 +8976,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 731,
-        "following_count": 257,
-        "follower_count": 70
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     },
     {
@@ -7781,9 +9030,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 731,
-        "following_count": 257,
-        "follower_count": 70
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     },
     {
@@ -7835,9 +9084,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 731,
-        "following_count": 257,
-        "follower_count": 70
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     },
     {
@@ -7889,9 +9138,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 731,
-        "following_count": 257,
-        "follower_count": 70
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     },
     {
@@ -7943,9 +9192,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 731,
-        "following_count": 257,
-        "follower_count": 70
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     }
   ],
@@ -7999,9 +9248,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 732,
-        "following_count": 258,
-        "follower_count": 72
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     },
     {
@@ -8053,9 +9302,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 732,
-        "following_count": 258,
-        "follower_count": 72
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     },
     {
@@ -8107,9 +9356,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 732,
-        "following_count": 258,
-        "follower_count": 72
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     },
     {
@@ -8161,9 +9410,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 732,
-        "following_count": 258,
-        "follower_count": 72
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     },
     {
@@ -8215,9 +9464,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 732,
-        "following_count": 258,
-        "follower_count": 72
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     },
     {
@@ -8269,9 +9518,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 732,
-        "following_count": 258,
-        "follower_count": 72
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     },
     {
@@ -8323,9 +9572,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 732,
-        "following_count": 258,
-        "follower_count": 72
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     },
     {
@@ -8377,9 +9626,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 732,
-        "following_count": 258,
-        "follower_count": 72
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     },
     {
@@ -8431,9 +9680,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 732,
-        "following_count": 258,
-        "follower_count": 72
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     },
     {
@@ -8485,9 +9734,9 @@ export const data = {
         "username": "Aaryan Pashine",
         "first_name": "Aaryan",
         "last_name": "Pashine",
-        "channel_count": 732,
-        "following_count": 258,
-        "follower_count": 72
+        "channel_count": 764,
+        "following_count": 260,
+        "follower_count": 73
       }
     }
   ]
