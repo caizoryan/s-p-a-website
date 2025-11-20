@@ -11,7 +11,7 @@ data.contact = [
 data.communications = [
 	{ href: "https://www.facebook.com/anuragpallavi", name: "Facebook" },
 	{
-		href: "https://https://www.instagram.com/salankarpashine_designs",
+		href: "https://www.instagram.com/salankarpashine_designs",
 		name: "Instagram"
 	},
 ];
