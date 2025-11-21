@@ -43,6 +43,19 @@ export let About = () => {
 				...data.pallavi.split("\n").map((e) => ["p", e]),
 			]],
 
+		[".inspiration",
+			[".main",
+				["h1", "The Inspiration Behind the Journey"],
+				["img.inspiration-img", { src: "./people/baba.jpeg" }],
+				[".about__subhead", "A mentor in every sense, his guidance continues to inspire every step of our journey."]
+			],
+
+			// ["div",
+			// 	[".about__subhead", "Vijay Salankar"],
+			// 	[".about__subhead", "A mentor in every sense, his guidance continues to inspire every step of our journey."]
+		],
+
+
 		[".column",
 			[".consultants",
 				["h1", "Consultants"],
